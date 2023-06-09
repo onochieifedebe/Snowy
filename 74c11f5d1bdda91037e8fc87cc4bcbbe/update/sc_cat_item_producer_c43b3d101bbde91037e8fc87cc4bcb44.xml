@@ -45,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Onochie Ifedebe">e988b1811bc52d1037e8fc87cc4bcb9a</owner>
+        <owner display_value="Onochie Ifedebe">6816f79cc0a8016401c5a33be04be441</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 
@@ -81,9 +81,7 @@
 */
 
 current.setValue('feature_type', producer.feature_type);
-current.setValue('u_volume_units', producer.volume_unit);
-
-producer.portal_redirect = "?id=calepa_home_landing_alt";]]></script>
+current.setValue('u_volume_units', producer.volume_unit);]]></script>
         <short_description>Facility Underground Storage Tanks</short_description>
         <show_variable_help_on_load>false</show_variable_help_on_load>
         <start_closed>false</start_closed>
@@ -92,14 +90,14 @@ producer.portal_redirect = "?id=calepa_home_landing_alt";]]></script>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-03-21 15:32:59</sys_created_on>
         <sys_id>c43b3d101bbde91037e8fc87cc4bcb44</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>Underground Storage Tanks</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
         <sys_update_name>sc_cat_item_producer_c43b3d101bbde91037e8fc87cc4bcb44</sys_update_name>
-        <sys_updated_by>eric.lund</sys_updated_by>
-        <sys_updated_on>2023-03-29 15:42:36</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-26 22:08:20</sys_updated_on>
         <table_name>x_acal_calepa_underground_storage_tanks_ust</table_name>
         <taxonomy_topic/>
         <template/>
