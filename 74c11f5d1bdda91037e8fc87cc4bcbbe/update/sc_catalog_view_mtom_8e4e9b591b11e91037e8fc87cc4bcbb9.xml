@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog_view_mtom">
+    <sc_catalog_view_mtom action="INSERT_OR_UPDATE">
+        <default>true</default>
+        <sc_catalog display_value="CalEPA">703e5b591b11e91037e8fc87cc4bcb5f</sc_catalog>
+        <sys_class_name>sc_catalog_view_mtom</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 04:47:25</sys_created_on>
+        <sys_id>8e4e9b591b11e91037e8fc87cc4bcbb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CalEPA.catalog_calepa</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_portal_page display_value="catalog_calepa">424e9b591b11e91037e8fc87cc4bcbb8</sys_portal_page>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sc_catalog_view_mtom_8e4e9b591b11e91037e8fc87cc4bcbb9</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-02-28 04:47:25</sys_updated_on>
+    </sc_catalog_view_mtom>
+</record_update>

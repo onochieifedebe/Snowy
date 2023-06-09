@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <answer>New Facility Products</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Facility Products</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Asset" name="Asset">a28d237047622100158b949b6c9a710d</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 04:20:59</sys_created_on>
+        <sys_id>a2389bd11b11e91037e8fc87cc4bcbe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Facility Products</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_wizard_answer_a2389bd11b11e91037e8fc87cc4bcbe0</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-02-28 04:20:59</sys_updated_on>
+        <table/>
+        <target_url>x_acal_calepa_facility_products.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+</record_update>

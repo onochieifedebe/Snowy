@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_catalog">
+    <sc_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <background_color>white</background_color>
+        <description/>
+        <desktop_continue_shopping/>
+        <desktop_home_page/>
+        <desktop_image>01080ea11b99e91037e8fc87cc4bcb01</desktop_image>
+        <editors/>
+        <enable_wish_list>false</enable_wish_list>
+        <manager/>
+        <sys_class_name>sc_catalog</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 04:47:25</sys_created_on>
+        <sys_id>703e5b591b11e91037e8fc87cc4bcb5f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>CalEPA Service Catalog</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sc_catalog_703e5b591b11e91037e8fc87cc4bcb5f</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-02-28 17:09:01</sys_updated_on>
+        <title>CalEPA Service Catalog</title>
+    </sc_catalog>
+    <sys_translated_text action="delete_multiple" query="documentkey=703e5b591b11e91037e8fc87cc4bcb5f"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/svg+xml</content_type>
+        <encryption_context/>
+        <file_name>desktop_image</file_name>
+        <hash>2eb7457afdf3e62c11929a7ca94e356deded016afcf6ae7532cbcf1924fc9175</hash>
+        <image_height/>
+        <image_width/>
+        <size_bytes>1138</size_bytes>
+        <size_compressed>689</size_compressed>
+        <state>available</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 17:09:01</sys_created_on>
+        <sys_id>01080ea11b99e91037e8fc87cc4bcb01</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-02-28 17:09:01</sys_updated_on>
+        <table_name>ZZ_YYsc_catalog</table_name>
+        <table_sys_id>703e5b591b11e91037e8fc87cc4bcb5f</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="desktop_image" sys_id="01080ea11b99e91037e8fc87cc4bcb01">01080ea11b99e91037e8fc87cc4bcb01</sys_attachment>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 17:09:01</sys_created_on>
+        <sys_id>41080ea11b99e91037e8fc87cc4bcb01</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>fVPbTtwwEH0uEv/guk+VbMfjW+wVKSoLQki0RVpK1adqyYbdiDSJstkL/fqODaioRX3J2HM5Z86xcnS8/9mQbTWs664tKAhJSdWW3aJulwXdjHfc0+MPhwdHbzkn51VbDfOxGybk46K7rchF02zWY0oRsAKnGZndnJOzfd8NI7lqNkt+0RKRkjePJBPihJTkZFM3CyLfE8J5wj/9Mr3+fnVG1tslufp6cnkxJZRn2Tc9zbLT69MEAQKy7OwzJXQ1jv0ky3a7ndhp0Q3L7HyY96u6XGfYmMVGHMoQDEAsxgWNHBH6hVSgpF4U9HL+UA0/8IJOtOviFWglpYxQTy2TfVO39681QgghS1VsLajs95Q8PMbDgzdkVy/GVUFDEKBjaVXVy9WIiVwoFxPbutqddHGSSJLaSKrFN5nfNhW/nZf3y6HbtLh3W+3IP3244GTdz8uqoP1QrathWyXpfdc8LLuW3NVNU9B3UjqnNSV9V7cjavZSaG2YU0KqnChhmcqFxaPFvGYKUv65S6YSzRLwfFz9jYrLfQIXQXDclZJJBkaAcVw5oaRnRgvLFdKUGoRzOTNMWzw4DPGEHx/zs6ATozXI6Jg3zzft0M9ZrtOM1XE75iDOJQUlR3YeIgSPzM7FgJRSSK/j2Ws9UzqJg5DG/yz86//KghNOMyuFMUiElijm0XuuhDcRxQCyKxNNC9iQCw2BQbwAx5y1SIM7BW6UyB1elABAOWV0BAzigOeo3xtc2AgJHB3xueXGCmVLKRw3yMeUCIoDrgEsqgVdxufxLKJ63EshkU4omM8tNuE38UgBCtvQOqxYz3JhJDD8IZRlIVKVKAgXQ6EYrE9B+VRHzzUwiz5O8XECoBPxEljAV8GAj6HQzZcmPfkZ/yCMvwF33vBxcgQAAA==</data>
+        <length>908</length>
+        <position>1</position>
+        <sys_attachment display_value="desktop_image" sys_id="01080ea11b99e91037e8fc87cc4bcb01">01080ea11b99e91037e8fc87cc4bcb01</sys_attachment>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 17:09:01</sys_created_on>
+        <sys_id>c1080ea11b99e91037e8fc87cc4bcb01</sys_id>
+    </sys_attachment_doc>
+</record_update>

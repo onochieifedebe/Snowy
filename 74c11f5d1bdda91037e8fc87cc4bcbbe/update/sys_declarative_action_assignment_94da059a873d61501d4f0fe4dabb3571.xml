@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_declarative_action_assignment">
+    <sys_declarative_action_assignment action="INSERT_OR_UPDATE">
+        <action/>
+        <action_attributes>{"heading":"Dashboards","displayAllDashboards":"false","limit":"6","showAllTab":"true","filter":"none","showBookmarked":"false","showPersonalizedLanguage":"false","userInfo":"@context.session.user","showCertified":"false"}</action_attributes>
+        <action_name>open_powerbi</action_name>
+        <action_payload/>
+        <action_type>type</action_type>
+        <active>true</active>
+        <button_type>primary</button_type>
+        <client_action display_value="Open Translate Page">eb625506319f5010f8777c12581bbc89</client_action>
+        <client_conditions/>
+        <client_conditions_on_fields/>
+        <client_script><![CDATA[function onClick() { }]]></client_script>
+        <confirmation_message/>
+        <confirmation_required>false</confirmation_required>
+        <create_access>false</create_access>
+        <declarative_action_render_mode/>
+        <declarative_action_type>action_component</declarative_action_type>
+        <delete_access>false</delete_access>
+        <dependency/>
+        <description/>
+        <design_icon display_value="open-link-right-outline">open_link_right_outline</design_icon>
+        <enabled>true</enabled>
+        <experience_restricted>false</experience_restricted>
+        <field_name/>
+        <field_type>glide_date</field_type>
+        <form_fields_required>false</form_fields_required>
+        <form_position>contexual_sidebar</form_position>
+        <group/>
+        <group_by>false</group_by>
+        <icon/>
+        <label>Open PowerBI</label>
+        <model display_value="Form">360935e9534723003eddddeeff7b127d</model>
+        <model_conditions/>
+        <model_field_required/>
+        <order>100</order>
+        <payload_map/>
+        <read_access>false</read_access>
+        <record_conditions/>
+        <record_selection_required>false</record_selection_required>
+        <required_roles/>
+        <requires_value>false</requires_value>
+        <script_condition/>
+        <server_script/>
+        <specificity>31</specificity>
+        <sys_class_name>sys_declarative_action_assignment</sys_class_name>
+        <sys_created_by>eric.lund</sys_created_by>
+        <sys_created_on>2023-03-27 17:09:55</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>94da059a873d61501d4f0fe4dabb3571</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>open_powerbi</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_declarative_action_assignment_94da059a873d61501d4f0fe4dabb3571</sys_update_name>
+        <sys_updated_by>eric.lund</sys_updated_by>
+        <sys_updated_on>2023-03-27 17:19:09</sys_updated_on>
+        <table>x_acal_calepa_business_org_facility</table>
+        <tooltip/>
+        <ui_component display_value="sn-dashboards-overview">163dad79f538500a427c47bbcb9b0f79</ui_component>
+        <view/>
+        <workspace/>
+        <write_access>false</write_access>
+    </sys_declarative_action_assignment>
+    <sys_translated_text action="delete_multiple" query="documentkey=94da059a873d61501d4f0fe4dabb3571"/>
+</record_update>

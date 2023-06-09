@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_catalog">
+    <m2m_sp_portal_catalog action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <order>100</order>
+        <sc_catalog display_value="CalEPA Service Catalog">703e5b591b11e91037e8fc87cc4bcb5f</sc_catalog>
+        <sp_portal display_value="CalEPA Portal">f39f9f991b11e91037e8fc87cc4bcb7e</sp_portal>
+        <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 05:21:51</sys_created_on>
+        <sys_id>5a26ab111b51e91037e8fc87cc4bcb9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CalEPA Service Catalog.CalEPA Portal</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>m2m_sp_portal_catalog_5a26ab111b51e91037e8fc87cc4bcb9f</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-02-28 05:21:51</sys_updated_on>
+    </m2m_sp_portal_catalog>
+</record_update>

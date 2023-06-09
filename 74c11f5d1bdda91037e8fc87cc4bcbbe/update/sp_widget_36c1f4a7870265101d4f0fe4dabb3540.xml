@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller = function() {
+    /* widget controller */
+    var c = this;
+
+    var myApiKey = c.data.apiKey;
+    var fac_rec_list = c.data.fac_list;
+	/*Testing*/
+	var fac_rec_name = c.data.fac_name;
+	var fac_rec_cupa = c.data.fac_cupa_agency;
+	
+	/*for (var item in fac_rec_list){
+		alert(fac_rec_list[item]);}*/
+
+
+    var myMap = L.map("map", {
+        minZoom: 6
+    }).setView([37.2551, -119.61752], 4);
+
+    var myBasemapEnum = "ArcGIS:Imagery";
+
+    L.esri.Vector.vectorBasemapLayer(myBasemapEnum, {
+        apiKey: myApiKey
+    }).addTo(myMap);
+
+    var myGeoCoder = L.esri.Geocoding.geocodeService({
+        apikey: myApiKey
+    });
+
+    var myLayerGroup = L.layerGroup().addTo(myMap);
+	
+	//added rm
+	var bounds = L.latLngBounds([]);
+	for (var item in fac_rec_list) {
+			var objlatlong = L.latLng(fac_rec_list[item].split(",")[1],fac_rec_list[item].split(",")[0]);
+			var marker_work = L.marker(objlatlong);
+            myLayerGroup.addLayer(marker_work);
+		/*Testing*/
+			marker_work.bindPopup("<a href=\"https://acncsm.service-now.com/now/cwf/agent/list/params/list-id/060a4b3a53b81010d4f9ddeeff7b129a/tiny-id/11e0b5c91b852d1037e8fc87cc4bcbf4\" target='_blank'>".concat(fac_rec_name[item], "</a><p>").concat(fac_rec_cupa[item], "</p>"));
+            marker_work.openPopup();
+			var layerBounds = objlatlong;
+			bounds.extend(layerBounds);			
+        }
+	
+	myMap.fitBounds(bounds);
+	//rm end
+    var searchControl = L.esri.Geocoding.geosearch({
+        position: "topright",
+        placeholder: "Enter an address or place e.g. 1 York St",
+        useMapBounds: false,
+
+
+        providers: [
+            L.esri.Geocoding.arcgisOnlineProvider({
+                apikey: myApiKey,
+                nearby: {
+                    lat: 37.2551,
+                    lng: -119.61752
+                }
+            })
+        ]
+    }).addTo(myMap);
+
+    var results = L.layerGroup().addTo(myMap);
+
+    searchControl.on('results', function(data) {
+        results.clearLayers();
+
+        for (var i = data.results.length - 1; i >= 0; i--) {
+            var marker = L.marker(data.results[i].latlng);
+
+            var lngLatString = "".concat(Math.round(data.results[i].latlng.lng * 100000) / 100000, ", ").concat(Math.round(data.results[i].latlng.lat * 100000) / 100000);
+
+            marker.bindPopup("<b>".concat(lngLatString, "</b><p>").concat(data.results[i].properties.LongLabel, "</p>"));
+
+            results.addLayer(marker);
+            marker.openPopup();
+        }
+    });
+	
+	
+	
+
+		
+
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>body {&#13;
+  margin: 0;&#13;
+  padding: 0;&#13;
+}&#13;
+&#13;
+&#13;
+#map {&#13;
+  /*&#13;
+  height: 100%;&#13;
+  width: 100%;&#13;
+  min-height: 450px;&#13;
+  min-width: 450px;&#13;
+  */&#13;
+  font-family: Arial, Helvetica, sans-serif;&#13;
+  font-size: 14px;&#13;
+  color: #323232;&#13;
+  &#13;
+  &#13;
+  position: absolute;&#13;
+  top: 0;&#13;
+  bottom: 0;&#13;
+  right: 0;&#13;
+  left: 0;&#13;
+  &#13;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>cers_agent_map</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>CERS Agent Map</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>x_acal_calepa.cupa_agent,x_acal_calepa.cupa.user,x_acal_calepa.cupa.admin</roles>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	
+	data.apiKey = "AAPK4b7f0e7ae7af4a18afbf782a020358c4gDSDhtJjGSub8pEVeedIy5c7C6A-mdjAH72F_2B3-Ft0p4ZNycMwkAHsyyfrbSa9";
+	var facility_list = [];
+	var facility_name = [];
+	var facility_cupa = [];
+	var cers_facilities = new GlideRecord('x_acal_calepa_business_org_facility');
+	
+	cers_facilities.query();
+	
+	while (cers_facilities.next()) {
+		facility_list.push(cers_facilities.longitude + ", " + cers_facilities.latitude);
+		facility_name.push(cers_facilities.name + "");
+		facility_cupa.push(cers_facilities.cupa_agency.name +"");
+	}
+	
+	data.fac_list = facility_list;
+	data.fac_name = facility_name;
+	data.fac_cupa_agency = facility_cupa;
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-04-12 22:47:14</sys_created_on>
+        <sys_id>36c1f4a7870265101d4f0fe4dabb3540</sys_id>
+        <sys_mod_count>73</sys_mod_count>
+        <sys_name>CERS Agent Map</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_widget_36c1f4a7870265101d4f0fe4dabb3540</sys_update_name>
+        <sys_updated_by>rajen.maru</sys_updated_by>
+        <sys_updated_on>2023-04-25 15:07:11</sys_updated_on>
+        <template><![CDATA[<div >
+	<div id="map"></div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

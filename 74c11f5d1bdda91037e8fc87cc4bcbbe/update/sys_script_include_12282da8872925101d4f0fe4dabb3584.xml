@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_acal_calepa.EPAUtil1</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>EPAUtil1</name>
+        <script><![CDATA[var EPAUtil1 = Class.create();
+EPAUtil1.prototype = {
+    initialize: function() {},
+    getFactorySite: function(epaid) {
+        var v_epaid = epaid;
+        var requestBody;
+        var responseBody;
+        var status;
+        var sm;
+        try {
+            // Might throw exception if message doesn't exist or not visible due to scope.
+            sm = new sn_ws.RESTMessageV2("CERS EPA Site", "Get EPA Site by EPA ID");
+            sm.setBasicAuth("cersepaintg", "Calenvdemo-1");
+            sm.setRequestHeader("Accept", "application/json");
+            //			sm.setQueryParameter("epa_id", epaid);
+            var v_content = {};
+            v_content.epa_id = v_epaid;
+            var msg = JSON.stringify(v_content);
+            sm.setRequestBody(msg);
+
+            //In milliseconds. Wait at most 10 seconds for response from http request.
+            sm.setHttpTimeout(10000);
+            var response = sm.execute();
+            responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            status = response.getStatusCode();
+            gs.info('EPA REST Status' + status);
+            gs.info('EPA REST Resp ' + responseBody);
+
+            return responseBody;
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500';
+        } finally {
+            requestBody = sm ? sm.getRequestBody() : null;
+        }
+
+
+
+    },
+
+    getFactorySitebyAddress: function(address, city, zipcode) {
+        var v_address = address;
+        var v_city = city;
+        var v_zip_code = zipcode;
+        var requestBody;
+        var responseBody;
+        var status;
+        var sm;
+        try {
+            // Might throw exception if message doesn't exist or not visible due to scope.
+            sm = new sn_ws.RESTMessageV2("CERS EPA Site", "GET EPA Site By Address");
+            sm.setBasicAuth("cersepaintg", "Calenvdemo-1");
+            sm.setRequestHeader("Accept", "application/json");
+
+            var v_content = {};
+            v_content.address = v_address;
+            v_content.city = v_city;
+            v_content.zip_code = v_zip_code;
+
+            var msg = JSON.stringify(v_content);
+            sm.setRequestBody(msg);
+
+            //In milliseconds. Wait at most 10 seconds for response from http request.
+            sm.setHttpTimeout(10000);
+            var response = sm.execute();
+            responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            status = response.getStatusCode();
+            gs.info('EPA by address REST Status' + status);
+            gs.info('EPA by address REST Resp ' + responseBody);
+
+            return responseBody;
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500';
+        } finally {
+            requestBody = sm ? sm.getRequestBody() : null;
+        }
+
+
+
+    },
+
+    type: 'EPAUtil1'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-09 22:31:47</sys_created_on>
+        <sys_id>12282da8872925101d4f0fe4dabb3584</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>EPAUtil1</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_script_include_12282da8872925101d4f0fe4dabb3584</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-09 22:33:29</sys_updated_on>
+    </sys_script_include>
+</record_update>

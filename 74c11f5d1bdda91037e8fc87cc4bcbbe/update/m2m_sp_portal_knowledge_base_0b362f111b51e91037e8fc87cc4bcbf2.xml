@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_portal_knowledge_base">
+    <m2m_sp_portal_knowledge_base action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <kb_knowledge_base display_value="Consumer Service">2b292926c3302200e7c7d44d81d3ae10</kb_knowledge_base>
+        <order>100</order>
+        <sp_portal display_value="CalEPA Portal">f39f9f991b11e91037e8fc87cc4bcb7e</sp_portal>
+        <sys_class_name>m2m_sp_portal_knowledge_base</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 05:22:10</sys_created_on>
+        <sys_id>0b362f111b51e91037e8fc87cc4bcbf2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Consumer Service.CalEPA Portal</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>m2m_sp_portal_knowledge_base_0b362f111b51e91037e8fc87cc4bcbf2</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-02-28 05:22:10</sys_updated_on>
+    </m2m_sp_portal_knowledge_base>
+</record_update>

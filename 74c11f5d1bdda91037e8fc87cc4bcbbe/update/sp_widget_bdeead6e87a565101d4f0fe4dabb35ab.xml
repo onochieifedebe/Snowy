@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>standard</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.iconlink {&#13;
+	padding: 3px 0;&#13;
+}&#13;
+&#13;
+.iconlink a label,h2 {&#13;
+  display: block;&#13;
+  font-size: 2.5rem;&#13;
+  font-weight: 300;&#13;
+  line-height: 1.1;&#13;
+  padding: 0;&#13;
+  margin: 0 0 10px 0;&#13;
+}&#13;
+&#13;
+.dropdown {&#13;
+  position: relative;&#13;
+  display: inline-block;&#13;
+}&#13;
+&#13;
+.dropdown-content {&#13;
+  display: none;&#13;
+  position: absolute;&#13;
+  background-color: #f9f9f9;&#13;
+  min-width: 160px;&#13;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);&#13;
+  padding: 12px 16px;&#13;
+  z-index: 1;&#13;
+}&#13;
+&#13;
+.dropdown:hover .dropdown-content {&#13;
+  display: block;&#13;
+}&#13;
+&#13;
+&#13;
+/* CIRCLE ICON ---------- */&#13;
+&#13;
+a.circle_icon {&#13;
+  display: block;&#13;
+  padding: 20px 0px 20px 70px;&#13;
+  position: relative;&#13;
+}&#13;
+&#13;
+a.circle_icon .fa {&#13;
+  position:absolute;&#13;
+  left: 0px;&#13;
+  top: 10px;&#13;
+}&#13;
+&#13;
+&#13;
+&#13;
+.icon-link-background-primary {&#13;
+  background-color: $brand-primary;&#13;
+}&#13;
+&#13;
+.icon-link-background-info {&#13;
+  background-color: $brand-info;&#13;
+}&#13;
+&#13;
+.icon-link-background-success {&#13;
+  background-color: $brand-success;&#13;
+}&#13;
+&#13;
+.icon-link-background-warning {&#13;
+  background-color: $brand-warning;&#13;
+}&#13;
+&#13;
+.icon-link-background-danger {&#13;
+  background-color: $brand-danger;&#13;
+}&#13;
+&#13;
+.icon-link-background-default {&#13;
+  background-color: $brand-primary;&#13;
+}&#13;
+&#13;
+.text-primary {&#13;
+  color: $brand-primary;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-primary, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-info {&#13;
+  color: $brand-info;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-info, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-success {&#13;
+  color: $brand-success;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-success, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-warning {&#13;
+  color: $brand-warning;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-warning, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-danger {&#13;
+  color: $brand-danger;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-danger, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.text-default {&#13;
+  color: $brand-primary;&#13;
+  &#13;
+  &amp;:hover {&#13;
+    color: darken($brand-primary, 20%);&#13;
+  }&#13;
+}&#13;
+&#13;
+.high-contrast {&#13;
+  .text-primary {&#13;
+    color: darken($brand-primary, 10%);&#13;
+  }&#13;
+&#13;
+  .text-info {&#13;
+    color: darken($brand-info, 10%);&#13;
+  }&#13;
+&#13;
+  .text-success {&#13;
+    color: darken($brand-success, 10%);&#13;
+  }&#13;
+&#13;
+  .text-warning {&#13;
+    color: darken($brand-warning, 10%);&#13;
+  }&#13;
+&#13;
+  .text-danger {&#13;
+    color: darken($brand-danger, 10%);&#13;
+  }&#13;
+&#13;
+  .text-default {&#13;
+    color: darken($brand-primary, 10%);&#13;
+  }&#13;
+}</css>
+        <data_table>sp_instance_menu</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>title,short_description,color,class_name,glyph</field_list>
+        <has_preview>false</has_preview>
+        <id/>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>CalEPA Icon Menu List</name>
+        <option_schema/>
+        <public>true</public>
+        <roles>x_acal_calepa.business_facility.user,x_acal_calepa.business_lead_user,x_acal_calepa.business_view_user,snc_external</roles>
+        <script><![CDATA[// populate the 'data' variable
+$sp.getValues(data);
+data.items = $sp.getMenuItems($sp.getValue("sys_id"));]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-16 04:08:54</sys_created_on>
+        <sys_id>bdeead6e87a565101d4f0fe4dabb35ab</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>CalEPA Icon Menu List</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_widget_bdeead6e87a565101d4f0fe4dabb35ab</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-21 02:41:44</sys_updated_on>
+        <template><![CDATA[<div class="panel panel-default ">
+  <div class="dropdown">
+  <!--// Circle Icon -->
+  <a ng-if="::(options.link_template == 'Circle Icon' || !options.link_template)" ng-href="{{::data.href}}" class="circle_icon {{::options.class_name}} text-{{::options.color}}" target="{{::data.target}}" >
+    <span class="fa fa-stack fa-2x" aria-hidden="true">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-{{::options.glyph}} fa-stack-1x fa-inverse"></i>
+    </span>
+    <h2>{{::options.title}}</h2>
+    <span class="text-muted">{{::options.short_description}}</span>
+  </a>
+    <div class="dropdown-content">
+   <a class="list-group-item no-border" href="{{::item.href}}" target="{{::item.url_target}}" ng-repeat="item in ::data.items">
+     <i ng-if="::item.glyph" class="fa fa-{{::item.glyph}} m-r-sm"></i>
+     <i ng-if="::!item.glyph" class="fa fa-chevron-right m-r-sm"></i> {{::item.label}}
+   </a>
+    </div>          
+  </div>  
+</div>
+]]></template>
+    </sp_widget>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_filter_option_dynamic">
+    <sys_filter_option_dynamic action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <available_for_default>false</available_for_default>
+        <available_for_filter>true</available_for_filter>
+        <available_for_ref_qual>false</available_for_ref_qual>
+        <field_type display_value="Reference">52a227c1bf3320001875647fcf07396a</field_type>
+        <filter_by_schedule/>
+        <label>Me</label>
+        <order/>
+        <roles/>
+        <script>gs.getUserID();</script>
+        <script_reference_id/>
+        <script_reference_table/>
+        <sys_class_name>sys_filter_option_dynamic</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-15 17:46:52</sys_created_on>
+        <sys_id>046023d287ad25101d4f0fe4dabb35e8</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Me</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_filter_option_dynamic_046023d287ad25101d4f0fe4dabb35e8</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-15 17:50:58</sys_updated_on>
+        <table>x_acal_calepa_business_contacts</table>
+        <table_containing_filter/>
+    </sys_filter_option_dynamic>
+</record_update>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <misc>0</misc>
+        <order>200</order>
+        <published_ref/>
+        <question display_value="THIS PLAN COVERS CHEMICAL SPILLS, FIRES, AND EARTHQUAKES INVOLVING (Check all that apply):">c39e1db9872da1101d4f0fe4dabb3584</question>
+        <rec_misc>0</rec_misc>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-13 19:05:19</sys_created_on>
+        <sys_id>d04fd9f9872da1101d4f0fe4dabb3505</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>HAZARDOUS WASTES</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>question_choice_d04fd9f9872da1101d4f0fe4dabb3505</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-13 19:05:19</sys_updated_on>
+        <text>HAZARDOUS WASTES</text>
+        <value>hazwaste</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=d04fd9f9872da1101d4f0fe4dabb3505"/>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>misc</field>
+        <id>d04fd9f9872da1101d4f0fe4dabb3505</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-13 19:05:19</sys_created_on>
+        <sys_id>b34f1df9872da1101d4f0fe4dabb3520</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-13 19:05:19</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+    <fx_price action="INSERT_OR_UPDATE">
+        <amount>0</amount>
+        <currency display_value="USD">USD</currency>
+        <field>rec_misc</field>
+        <id>d04fd9f9872da1101d4f0fe4dabb3505</id>
+        <parent/>
+        <reference_amount>0</reference_amount>
+        <reference_currency display_value="USD">USD</reference_currency>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-13 19:05:19</sys_created_on>
+        <sys_id>3b4f1df9872da1101d4f0fe4dabb351f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-13 19:05:19</sys_updated_on>
+        <table>question_choice</table>
+        <type>calculated</type>
+    </fx_price>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_acal_calepa.user" name="x_acal_calepa.user">63d11fd91bdda91037e8fc87cc4bcbb4</contains>
+        <role display_value="x_acal_calepa.business_lead_user" name="x_acal_calepa.business_lead_user">87f20f96872d25101d4f0fe4dabb35d8</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-15 19:26:22</sys_created_on>
+        <sys_id>eb473f5a87ed25101d4f0fe4dabb351d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_acal_calepa.user.x_acal_calepa.business_lead_user</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_user_role_contains_eb473f5a87ed25101d4f0fe4dabb351d</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-15 19:26:22</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

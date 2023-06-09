@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="cxs_ui_action_config">
+    <cxs_ui_action_config action="INSERT_OR_UPDATE">
+        <action_condition/>
+        <action_label>Attach</action_label>
+        <action_undo_label>Unattach</action_undo_label>
+        <action_value>attach</action_value>
+        <active>true</active>
+        <advanced_visibility>false</advanced_visibility>
+        <attach_note_field>comments</attach_note_field>
+        <attachment_type>embed_link</attachment_type>
+        <badge_label>Attached</badge_label>
+        <current_action_condition/>
+        <current_table/>
+        <order>100</order>
+        <rest_api/>
+        <search_res_config/>
+        <search_resource display_value="">com.snc.contextual_search.search_resource.KnowledgeSearchResource</search_resource>
+        <search_ui_action display_value="Attach">d587f286872a0300692cbba826cb0b6a</search_ui_action>
+        <search_ui_config display_value="Agent Assist [x_acal_calepa_cers_nextgen]">5da4208d879e69101d4f0fe4dabb352d</search_ui_config>
+        <show_on_new>false</show_on_new>
+        <sys_class_name>cxs_ui_action_config</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-04-17 13:42:34</sys_created_on>
+        <sys_id>f015608d879e69101d4f0fe4dabb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Attach</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>cxs_ui_action_config_f015608d879e69101d4f0fe4dabb3595</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-04-17 13:42:34</sys_updated_on>
+        <table>kb_knowledge</table>
+        <trend_recommendation/>
+        <ui_action_visibility_script/>
+        <use_custom_field_for_attach>false</use_custom_field_for_attach>
+    </cxs_ui_action_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=f015608d879e69101d4f0fe4dabb3595"/>
+</record_update>

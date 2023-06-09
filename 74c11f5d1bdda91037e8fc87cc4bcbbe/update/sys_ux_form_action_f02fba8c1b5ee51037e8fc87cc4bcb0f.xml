@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>CERS Map UI Action</name>
+        <specificity>30</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-04-14 22:21:44</sys_created_on>
+        <sys_id>f02fba8c1b5ee51037e8fc87cc4bcb0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CERS Map UI Action</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_ux_form_action_f02fba8c1b5ee51037e8fc87cc4bcb0f</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-04-14 22:21:44</sys_updated_on>
+        <table>x_acal_calepa_cers_nextgen</table>
+        <ui_action display_value="">2a8ef68c1b5ee51037e8fc87cc4bcb36</ui_action>
+    </sys_ux_form_action>
+</record_update>

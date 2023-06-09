@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="5f2afd2f1b59611037e8fc87cc4bcb73" sys_domain="global" table="x_acal_calepa_cers_nextgen" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9b2afd2f1b59611037e8fc87cc4bcb87</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="6957d240872021101d4f0fe4dabb3536">5f2afd2f1b59611037e8fc87cc4bcb73</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="6957d240872021101d4f0fe4dabb3536">132afd2f1b59611037e8fc87cc4bcb76</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d32afd2f1b59611037e8fc87cc4bcb8a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="6957d240872021101d4f0fe4dabb3536">5f2afd2f1b59611037e8fc87cc4bcb73</sys_ui_form>
+            <sys_ui_section caption="T-Mobile" display_value="T-Mobile" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="6957d240872021101d4f0fe4dabb3536">9f2afd2f1b59611037e8fc87cc4bcb87</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_acal_calepa_cers_nextgen</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5f2afd2f1b59611037e8fc87cc4bcb73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_cers_nextgen</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_form_sections_5f2afd2f1b59611037e8fc87cc4bcb73</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
+            <sys_user/>
+            <view display_value="Self Service" name="ess">6957d240872021101d4f0fe4dabb3536</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

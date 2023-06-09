@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_form_action">
+    <sys_ux_form_action action="INSERT_OR_UPDATE">
+        <action_type>ui_action</action_type>
+        <active>true</active>
+        <declarative_action/>
+        <description/>
+        <name>Compare Submittals</name>
+        <specificity>30</specificity>
+        <sys_class_name>sys_ux_form_action</sys_class_name>
+        <sys_created_by>eric.lund</sys_created_by>
+        <sys_created_on>2023-03-21 21:11:36</sys_created_on>
+        <sys_id>6be88b5c1bb12d1037e8fc87cc4bcb93</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Compare Submittals</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_ux_form_action_6be88b5c1bb12d1037e8fc87cc4bcb93</sys_update_name>
+        <sys_updated_by>eric.lund</sys_updated_by>
+        <sys_updated_on>2023-03-21 21:11:36</sys_updated_on>
+        <table>x_acal_calepa_cers_nextgen</table>
+        <ui_action display_value="">1268075c1bb12d1037e8fc87cc4bcbce</ui_action>
+    </sys_ux_form_action>
+</record_update>

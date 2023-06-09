@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list>number,epa_id,business_org.name</field_list>
+        <filter table="x_acal_calepa_business_org_facility">u_facility_contactDYNAMIC046023d287ad25101d4f0fe4dabb35e8^ORsecondary_external_contactsDYNAMIC90d1921e5f510100a9ad2572f2b477fe^EQ<item endquery="false" field="u_facility_contact" goto="false" newquery="false" operator="DYNAMIC" or="false" value="046023d287ad25101d4f0fe4dabb35e8"/>
+            <item endquery="false" field="secondary_external_contacts" goto="false" newquery="false" operator="DYNAMIC" or="true" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <glyph>building</glyph>
+        <id/>
+        <maximum_entries>10</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">2de5bde287e565101d4f0fe4dabb352e</sp_column>
+        <sp_page display_value="calepa_facility_form">644176af1b1d611037e8fc87cc4bcb29</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-16 04:39:28</sys_created_on>
+        <sys_id>ede5bde287e565101d4f0fe4dabb3530</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>My Facilities</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_instance_vlist_ede5bde287e565101d4f0fe4dabb3530</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-04-11 22:23:11</sys_updated_on>
+        <table>x_acal_calepa_business_org_facility</table>
+        <title>My Facilities</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "name,bus_fac_state",
+		"displayValue": "name,bus_fac_state"
+	},
+	"rounded_images": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "Default view",
+		"displayValue": "Default view"
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=ede5bde287e565101d4f0fe4dabb3530"/>
+</record_update>

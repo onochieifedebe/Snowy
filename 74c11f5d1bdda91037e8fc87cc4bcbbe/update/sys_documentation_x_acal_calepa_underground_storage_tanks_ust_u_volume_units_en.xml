@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_volume_units" label="Volume Units" language="en" table="x_acal_calepa_underground_storage_tanks_ust">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_volume_units</element>
+            <help/>
+            <hint/>
+            <label>Volume Units</label>
+            <language>en</language>
+            <name>x_acal_calepa_underground_storage_tanks_ust</name>
+            <plural>Volume Units</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:29:21</sys_created_on>
+            <sys_id>f59afddc1b7de91037e8fc87cc4bcb26</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Volume Units</sys_name>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_documentation_x_acal_calepa_underground_storage_tanks_ust_u_volume_units_en</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:29:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

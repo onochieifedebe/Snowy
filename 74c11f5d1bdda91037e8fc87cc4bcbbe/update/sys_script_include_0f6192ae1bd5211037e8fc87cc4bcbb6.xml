@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_acal_calepa.EPAUtil</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>EPAUtil</name>
+        <script><![CDATA[var EPAUtil = Class.create();
+EPAUtil.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    getFactorySite: function() {
+        var epaid = this.getParameter('sysparm_epaid');
+        var requestBody;
+        var responseBody;
+        var status;
+        var sm;
+        try {
+            // Might throw exception if message doesn't exist or not visible due to scope.
+            sm = new sn_ws.RESTMessageV2("CERS EPA Site", "Get EPA Site by EPA ID");
+            sm.setBasicAuth("cersepaintg", "Calenvdemo-1");
+            sm.setRequestHeader("Accept", "application/json");
+            //			sm.setQueryParameter("epa_id", epaid);
+            var v_content = {};
+            v_content.epa_id = epaid;
+            var msg = JSON.stringify(v_content);
+            sm.setRequestBody(msg);
+
+            //In milliseconds. Wait at most 10 seconds for response from http request.
+            sm.setHttpTimeout(10000);
+            var response = sm.execute();
+            responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            status = response.getStatusCode();
+            gs.info('EPA REST Status' + status);
+            gs.info('EPA REST Resp ' + responseBody);
+
+            return responseBody;
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500';
+        } finally {
+            requestBody = sm ? sm.getRequestBody() : null;
+        }
+
+
+
+    },
+
+    getFactorySitebyAddress: function() {
+        var v_address = this.getParameter('sysparm_address');
+        var v_city = this.getParameter('sysparm_city');
+        var v_zip_code = this.getParameter('sysparm_zipcode');
+        var requestBody;
+        var responseBody;
+        var status;
+        var sm;
+        try {
+            // Might throw exception if message doesn't exist or not visible due to scope.
+            sm = new sn_ws.RESTMessageV2("CERS EPA Site", "GET EPA Site By Address");
+            sm.setBasicAuth("cersepaintg", "Calenvdemo-1");
+            sm.setRequestHeader("Accept", "application/json");
+
+            var v_content = {};
+            v_content.address = v_address;
+            v_content.city = v_city;
+            v_content.zip_code = v_zip_code;
+
+            var msg = JSON.stringify(v_content);
+            sm.setRequestBody(msg);
+
+            //In milliseconds. Wait at most 10 seconds for response from http request.
+            sm.setHttpTimeout(10000);
+            var response = sm.execute();
+            responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+            status = response.getStatusCode();
+            gs.info('EPA by address REST Status' + status);
+            gs.info('EPA by address REST Resp ' + responseBody);
+
+            return responseBody;
+        } catch (ex) {
+            responseBody = ex.getMessage();
+            status = '500';
+        } finally {
+            requestBody = sm ? sm.getRequestBody() : null;
+        }
+
+
+
+    },
+
+    getFacility: function() {
+        var v_facility_sysid = this.getParameter('sysparm_sysid');
+
+		var grfc = new GlideRecord('x_acal_calepa_business_org_facility');
+		grfc.addQuery('sys_id', v_facility_sysid);
+		grfc.query();
+		
+		if (grfc.next()) {
+			var fcobj = {};
+			fcobj.facility_address = grfc.getValue('street').toString();
+			fcobj.facility_city = grfc.getValue('city').toString();
+			fcobj.facility_state = grfc.getValue('state').toString();
+			fcobj.facility_zip = grfc.getValue('zip').toString();
+			fcobj.facility_epaid = grfc.getValue('epa_id').toString();
+			fcobj.facility_cersid = grfc.getValue('number').toString();
+			fcobj.facility_name = grfc.getValue('name').toString();
+			
+			var resp = JSON.stringify(fcobj);
+			return resp;
+			
+		}
+
+    },
+
+
+    type: 'EPAUtil'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-03 20:40:31</sys_created_on>
+        <sys_id>0f6192ae1bd5211037e8fc87cc4bcbb6</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>EPAUtil</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_script_include_0f6192ae1bd5211037e8fc87cc4bcbb6</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-15 15:16:24</sys_updated_on>
+    </sys_script_include>
+</record_update>

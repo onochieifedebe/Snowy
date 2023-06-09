@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="oauth_entity">
+    <oauth_entity action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <access_token_lifespan>1800</access_token_lifespan>
+        <active>true</active>
+        <auth_code_lifespan>0</auth_code_lifespan>
+        <auth_url/>
+        <certificate_url/>
+        <client_id>a31b44d6db99e150f42944b2e0200dc2</client_id>
+        <client_secret>﷞﷟﷒121f8f8c1b20211037e8fc87cc4bcbc4﷬﷔1﷬﷭92KiX12hdGFFyTFtrOS2vQ==LXalZQwnq4Ce13PTnCqZrsOYZQol06nIizE=﷮﷯</client_secret>
+        <client_uuid>b9b31cda1b9d6d1037e8fc87cc4bcb9d</client_uuid>
+        <code_challenge_method>S256</code_challenge_method>
+        <comments/>
+        <default_grant_type>password</default_grant_type>
+        <id_token_lifespan>0</id_token_lifespan>
+        <logo_url/>
+        <message_signature_lifespan>0</message_signature_lifespan>
+        <name>CERS OAUTH</name>
+        <oauth_api_script/>
+        <protocol_name/>
+        <public_client>false</public_client>
+        <redirect_url>https://acncsm.service-now.com/oauth_redirect.do</redirect_url>
+        <refresh_token_lifespan>3600</refresh_token_lifespan>
+        <refresh_token_url/>
+        <restricted_binding>false</restricted_binding>
+        <revoke_token_url/>
+        <salt>0</salt>
+        <send_client_credentials_as>request_body_parameter</send_client_credentials_as>
+        <skip_authorize>false</skip_authorize>
+        <sys_class_name>oauth_entity</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-02 16:37:37</sys_created_on>
+        <sys_id>3db31cda1b9d6d1037e8fc87cc4bcb9d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>CERS OAUTH</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>oauth_entity_3db31cda1b9d6d1037e8fc87cc4bcb9d</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-10 16:22:14</sys_updated_on>
+        <token_url>https://acncsmdev.service-now.com/oauth_token.do</token_url>
+        <type>oauth_provider</type>
+        <use_mutual_auth>false</use_mutual_auth>
+        <user/>
+    </oauth_entity>
+</record_update>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure>Business Contacts List</dynamic_title_structure>
+        <id>calepa_business_contacts_list</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>x_acal_calepa.business_submitter_user,x_acal_calepa.business_lead_user,x_acal_calepa.business_view_user</roles>
+        <seo_script/>
+        <short_description>List of contacts for facilities</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>eric.lund</sys_created_by>
+        <sys_created_on>2023-03-17 17:10:36</sys_created_on>
+        <sys_id>ce6b6d8b8761e5101d4f0fe4dabb354b</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>calepa_business_contacts_list</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_page_ce6b6d8b8761e5101d4f0fe4dabb354b</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-22 16:35:04</sys_updated_on>
+        <title>Business Contacts List</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=ce6b6d8b8761e5101d4f0fe4dabb354b"/>
+</record_update>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>500</order>
+        <published_ref/>
+        <question display_value="TYPE OF BUSINESS">88e8e99487f1e9101d4f0fe4dabb35dc</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-29 16:59:55</sys_created_on>
+        <sys_id>59dbdffa1bf1655037e8fc87cc4bcb1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>MEDICINAL CHEMICALS &amp; BOTANICAL PRODUCTS</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>question_choice_59dbdffa1bf1655037e8fc87cc4bcb1d</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-29 17:04:00</sys_updated_on>
+        <text>MEDICINAL CHEMICALS &amp; BOTANICAL PRODUCTS</text>
+        <value>MEDICINAL CHEMICALS &amp; BOTANICAL PRODUCTS</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=59dbdffa1bf1655037e8fc87cc4bcb1d"/>
+</record_update>

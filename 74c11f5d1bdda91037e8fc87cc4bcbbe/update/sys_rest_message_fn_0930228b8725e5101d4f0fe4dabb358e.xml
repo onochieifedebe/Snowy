@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>Report Facilities</function_name>
+        <http_method>post</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>CERS Facility Report [ Report Facilities ]</qualified_name>
+        <rest_endpoint>https://acncsmdev.service-now.com/api/x_acal_epa_sites/facility_report_service/report_facilities</rest_endpoint>
+        <rest_message display_value="CERS Facility Report">38df1a4b8725e5101d4f0fe4dabb3537</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-17 21:02:16</sys_created_on>
+        <sys_id>0930228b8725e5101d4f0fe4dabb358e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Report Facilities</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_rest_message_fn_0930228b8725e5101d4f0fe4dabb358e</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-17 21:02:16</sys_updated_on>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

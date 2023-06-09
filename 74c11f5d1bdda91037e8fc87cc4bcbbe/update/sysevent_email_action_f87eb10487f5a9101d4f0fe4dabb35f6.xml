@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sysevent_email_action">
+    <sysevent_email_action action="INSERT_OR_UPDATE">
+        <action_insert>false</action_insert>
+        <action_update>true</action_update>
+        <active>true</active>
+        <advanced_condition/>
+        <affected_field_on_event/>
+        <category display_value="Uncategorized" name="Uncategorized">c97d83137f4432005f58108c3ffa917a</category>
+        <collection>x_acal_calepa_cers_nextgen</collection>
+        <condition table="x_acal_calepa_cers_nextgen">stateCHANGESTO18^EQ<item display_value="Awaiting Info" endquery="false" field="state" goto="false" newquery="false" operator="CHANGESTO" or="false" value="18"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <content_type>text/html</content_type>
+        <default_interval/>
+        <description/>
+        <digest_from/>
+        <digest_html><![CDATA[<p>Number: ${number}<br />Number: ${number}</p>]]></digest_html>
+        <digest_reply_to/>
+        <digest_separator_html><![CDATA[<p>&nbsp;</p>
+<hr />
+<p>&nbsp;</p>]]></digest_separator_html>
+        <digest_separator_text><![CDATA[\n--------------------------------------------------------------------------------\n]]></digest_separator_text>
+        <digest_subject/>
+        <digest_template/>
+        <digest_text/>
+        <digestable>false</digestable>
+        <enable_dynamic_translation>false</enable_dynamic_translation>
+        <event_name>activate.life.cycle.migration</event_name>
+        <event_parm_1>false</event_parm_1>
+        <event_parm_2>false</event_parm_2>
+        <exclude_delegates>false</exclude_delegates>
+        <force_delivery>false</force_delivery>
+        <from/>
+        <generation_type>engine</generation_type>
+        <importance/>
+        <include_attachments>false</include_attachments>
+        <item>event.parm1</item>
+        <item_table/>
+        <mandatory>false</mandatory>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${opened_by},</p>
+<p>&nbsp; This is a system generated notification. Your submittal ${case} assigned CUPA Agent&nbsp; ${assigned_to} has requested information. Please review Agents remarks.</p>
+<p>&nbsp;</p>
+<p>Submittal - <a href="https://acncsm.service-now.com/calepa?sys_id=${sys_id}&amp;view=catalog_calepa&amp;id=calepa_submittals_form&amp;table=x_acal_calepa_cers_nextgen">${number}</a></p>
+<p>Agents comments:</p>
+<p>${comments}</p>
+<p>&nbsp;</p>
+<p>Warm Regards</p>
+<p>CERS NextGen System</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>CERS Case More Info Needed</name>
+        <omit_watermark>false</omit_watermark>
+        <order>100</order>
+        <push_message_only>false</push_message_only>
+        <recipient_fields>opened_by</recipient_fields>
+        <recipient_groups/>
+        <recipient_users/>
+        <reply_to/>
+        <send_self>true</send_self>
+        <sms_alternate/>
+        <style/>
+        <subject>CERS Case ${number} - CUPA Agent requested more information</subject>
+        <subscribable>false</subscribable>
+        <sys_class_name>sysevent_email_action</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-20 21:16:22</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f87eb10487f5a9101d4f0fe4dabb35f6</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CERS Case More Info Needed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sysevent_email_action_f87eb10487f5a9101d4f0fe4dabb35f6</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-22 19:49:46</sys_updated_on>
+        <sys_version>2</sys_version>
+        <template/>
+        <type>email</type>
+        <weight>0</weight>
+    </sysevent_email_action>
+</record_update>

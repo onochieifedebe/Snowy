@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-04-11 20:44:48</sys_created_on>
+        <sys_id>af2cc70f874ee1101d4f0fe4dabb3555</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_acal_calepa_cers_nextgen.number.x_acal_calepa.cers.user</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_security_acl display_value="x_acal_calepa_cers_nextgen.number">8ecfc6871b82251037e8fc87cc4bcbbc</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_af2cc70f874ee1101d4f0fe4dabb3555</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-04-11 20:44:48</sys_updated_on>
+        <sys_user_role display_value="x_acal_calepa.cers.user" name="x_acal_calepa.cers.user">52da53951b11e91037e8fc87cc4bcba5</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>

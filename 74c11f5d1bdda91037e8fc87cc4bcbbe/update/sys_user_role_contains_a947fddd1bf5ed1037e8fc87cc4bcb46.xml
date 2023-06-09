@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="x_acal_calepa.chemical_library.user" name="x_acal_calepa.chemical_library.user">e583d7dd1bdda91037e8fc87cc4bcb21</contains>
+        <role display_value="x_acal_calepa.business_submitter_user" name="x_acal_calepa.business_submitter_user">4a168f5a872d25101d4f0fe4dabb358c</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>eric.lund</sys_created_by>
+        <sys_created_on>2023-03-24 17:48:46</sys_created_on>
+        <sys_id>a947fddd1bf5ed1037e8fc87cc4bcb46</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_acal_calepa.chemical_library.user.x_acal_calepa.business_submitter_user</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_user_role_contains_a947fddd1bf5ed1037e8fc87cc4bcb46</sys_update_name>
+        <sys_updated_by>eric.lund</sys_updated_by>
+        <sys_updated_on>2023-03-24 17:48:46</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

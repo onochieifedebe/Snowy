@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-10 19:05:01</sys_created_on>
+        <sys_id>bd72423487e565101d4f0fe4dabb358f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CASUtilAjax.x_acal_calepa.business_contact.user</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_security_acl display_value="CASUtilAjax">6d72cef087e565101d4f0fe4dabb3567</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_bd72423487e565101d4f0fe4dabb358f</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-10 19:05:01</sys_updated_on>
+        <sys_user_role display_value="x_acal_calepa.business_contact.user" name="x_acal_calepa.business_contact.user">1b03df9d1bdda91037e8fc87cc4bcb7c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
