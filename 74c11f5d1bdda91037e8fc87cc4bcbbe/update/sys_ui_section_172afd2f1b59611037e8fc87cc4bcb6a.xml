@@ -8,7 +8,7 @@
             <sys_id>932afd2f1b59611037e8fc87cc4bcb6b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>172afd2f1b59611037e8fc87cc4bcb6b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
             <sys_user/>
@@ -36,7 +36,7 @@
             <sys_id>972afd2f1b59611037e8fc87cc4bcb6b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
             <sys_user/>
@@ -64,7 +64,7 @@
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Outsourced Customer Service" name="outsourced_customer_service">2a28b0f97393001022139a1ee2f6a7d1</view>
+            <view display_value="Outsourced Customer Service" name="outsourced_customer_service">07a797ce1b1325102486edbbbc4bcb25</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

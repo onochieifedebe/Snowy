@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Underground Storage Tanks">c43b3d101bbde91037e8fc87cc4bcb44</sc_cat_item>
+        <sc_catalog display_value="CalEPA Service Catalog">703e5b591b11e91037e8fc87cc4bcb5f</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-21 16:06:31</sys_created_on>
+        <sys_id>2a138a581bbde91037e8fc87cc4bcbd1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CalEPA Service Catalog.Underground Storage Tanks</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_2a138a581bbde91037e8fc87cc4bcbd1</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-21 16:06:31</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</application>
+        <file_path/>
+        <instance_id>afbbb8d11b532d1c168f4089bd4bcb91</instance_id>
+        <instance_name>dev176016</instance_name>
+        <name>sc_cat_item_catalog_2a138a581bbde91037e8fc87cc4bcbd1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Underground Storage Tanks">c43b3d101bbde91037e8fc87cc4bcb44</sc_cat_item><sc_catalog display_value="CalEPA Service Catalog">703e5b591b11e91037e8fc87cc4bcb5f</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>onochie.ifedebe</sys_created_by><sys_created_on>2023-03-21 16:06:31</sys_created_on><sys_id>2a138a581bbde91037e8fc87cc4bcbd1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>CalEPA Service Catalog.Underground Storage Tanks</sys_name><sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package><sys_policy/><sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope><sys_update_name>sc_cat_item_catalog_2a138a581bbde91037e8fc87cc4bcbd1</sys_update_name><sys_updated_by>onochie.ifedebe</sys_updated_by><sys_updated_on>2023-03-21 16:06:31</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-1754742540</payload_hash>
+        <record_name>CalEPA Service Catalog.Underground Storage Tanks</record_name>
+        <reverted_from/>
+        <source>d0471f0e1b1325102486edbbbc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:18:43</sys_created_on>
+        <sys_id>1a77138e1b1325102486edbbbc4bcb7a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188a23d8edb0000001</sys_recorded_at>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:18:43</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>ea13ca58b5bde9108cdf05cc348449dc</update_guid>
+        <update_guid_history>ea13ca58b5bde9108cdf05cc348449dc:-1754742540</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:23:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>cb705db9ad53466096954a1f44460c84</sys_id>
+        <sys_metadata>2a138a581bbde91037e8fc87cc4bcbd1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CalEPA Service Catalog.Underground Storage Tanks</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope_delete display_value="">3275abb307874fd8930dc17c2af7b390</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_2a138a581bbde91037e8fc87cc4bcbd1</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_2a138a581bbde91037e8fc87cc4bcbd1">1a77138e1b1325102486edbbbc4bcb7a</sys_update_version>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:23:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

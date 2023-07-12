@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="cupa_agency" table="x_acal_calepa_business_org_facility">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -54,7 +54,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>debesish.banerjee</sys_created_by>
         <sys_created_on>2023-03-03 19:34:58</sys_created_on>
-        <sys_id>50f50ee21bd5211037e8fc87cc4bcb89</sys_id>
         <sys_name>CUPA Agency</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>

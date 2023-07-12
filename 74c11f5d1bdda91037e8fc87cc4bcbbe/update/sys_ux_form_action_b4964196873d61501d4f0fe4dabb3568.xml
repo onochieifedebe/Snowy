@@ -19,6 +19,6 @@
         <sys_updated_by>eric.lund</sys_updated_by>
         <sys_updated_on>2023-03-27 16:49:56</sys_updated_on>
         <table>x_acal_calepa_cers_nextgen</table>
-        <ui_action display_value="">92c5c556873d61501d4f0fe4dabb3541</ui_action>
+        <ui_action display_value="Go To PowerBI">92c5c556873d61501d4f0fe4dabb3541</ui_action>
     </sys_ux_form_action>
 </record_update>

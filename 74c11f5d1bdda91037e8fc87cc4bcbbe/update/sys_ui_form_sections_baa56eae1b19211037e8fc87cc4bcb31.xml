@@ -9,8 +9,8 @@
             <sys_id>9fa5eeee1b19211037e8fc87cc4bcb88</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
-            <sys_ui_section caption="General" display_value="General" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">07a5eeee1b19211037e8fc87cc4bcb69</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">07a5eeee1b19211037e8fc87cc4bcb69</sys_ui_section>
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:31</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>87a5eeee1b19211037e8fc87cc4bcb65</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
-            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">47a5eeee1b19211037e8fc87cc4bcb60</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">47a5eeee1b19211037e8fc87cc4bcb60</sys_ui_section>
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:30</sys_updated_on>
         </sys_ui_form_section>
@@ -37,8 +37,8 @@
             <sys_id>9fa5eeee1b19211037e8fc87cc4bcb8c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
-            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">93a5eeee1b19211037e8fc87cc4bcb89</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">93a5eeee1b19211037e8fc87cc4bcb89</sys_ui_section>
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:31</sys_updated_on>
         </sys_ui_form_section>
@@ -51,8 +51,8 @@
             <sys_id>03a5eeee1b19211037e8fc87cc4bcb69</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
-            <sys_ui_section caption="Activities" display_value="Activities" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">43a5eeee1b19211037e8fc87cc4bcb66</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_facility_products" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">baa56eae1b19211037e8fc87cc4bcb31</sys_ui_form>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">43a5eeee1b19211037e8fc87cc4bcb66</sys_ui_section>
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:31</sys_updated_on>
         </sys_ui_form_section>
@@ -75,7 +75,7 @@
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:29</sys_updated_on>
             <sys_user/>
-            <view display_value="Workspace" name="workspace">2522668087a021101d4f0fe4dabb3568</view>
+            <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

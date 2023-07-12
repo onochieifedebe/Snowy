@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
     <m2m_sp_dependency_css_include action="INSERT_OR_UPDATE">
         <order>200</order>
-        <sp_css_include display_value="esri-leaflet-geocoder.css">a56194961b5ae8108872b88e034bcb5f</sp_css_include>
+        <sp_css_include display_value="esri-leaflet-geocoder@3.0.0">a56194961b5ae8108872b88e034bcb5f</sp_css_include>
         <sp_dependency display_value="CER Agent Map Includes">59c0d9de873d61501d4f0fe4dabb35d0</sp_dependency>
         <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>

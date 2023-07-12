@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
     <sc_cat_item_catalog action="INSERT_OR_UPDATE">
-        <sc_cat_item display_value="Emergency Response Contigency Plan">1069d975872da1101d4f0fe4dabb3555</sc_cat_item>
+        <sc_cat_item display_value="Emergency Response Contingency Plan">1069d975872da1101d4f0fe4dabb3555</sc_cat_item>
         <sc_catalog display_value="CalEPA Service Catalog">703e5b591b11e91037e8fc87cc4bcb5f</sc_catalog>
         <sys_class_name>sc_cat_item_catalog</sys_class_name>
         <sys_created_by>debesish.banerjee</sys_created_by>

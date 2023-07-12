@@ -4,7 +4,7 @@
         <grant_type>password</grant_type>
         <jwt_provider/>
         <name>CERS EPA Site Profile</name>
-        <oauth_entity display_value="CERS EPA Site">3db31cda1b9d6d1037e8fc87cc4bcb9d</oauth_entity>
+        <oauth_entity display_value="CERS OAUTH">3db31cda1b9d6d1037e8fc87cc4bcb9d</oauth_entity>
         <saml2_assertion_producer/>
         <sys_class_name>oauth_entity_profile</sys_class_name>
         <sys_created_by>debesish.banerjee</sys_created_by>

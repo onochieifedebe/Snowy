@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of link-button">c87d915c87a9e1101d4f0fe4dabb3525</child>
+        <child display_value="CalEPA Validation Button">c87d915c87a9e1101d4f0fe4dabb3525</child>
         <cloned>2023-03-09 03:06:16</cloned>
         <last_validated>2023-03-09 03:06:16</last_validated>
         <parent display_value="link-button">abc50de6d702120023c84f80de61036a</parent>

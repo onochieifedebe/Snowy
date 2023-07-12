@@ -8,7 +8,7 @@
         <name>Landing Page</name>
         <optional_parameters/>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <parent_macroponent_composition_element_id/>
         <route_type>landing-page</route_type>
         <screen_type display_value="Landing Page">6eb128041b61e11037e8fc87cc4bcb48</screen_type>

@@ -17,6 +17,8 @@
         <do_not_select_first>false</do_not_select_first>
         <dynamic_default_value/>
         <dynamic_ref_qual display_value="Show logged in user Business ORG">8fd0a1991bb5ed1037e8fc87cc4bcb95</dynamic_ref_qual>
+        <dynamic_value_dot_walk_path/>
+        <dynamic_value_field/>
         <enable_also_request_for>false</enable_also_request_for>
         <example_text/>
         <field>business_org</field>

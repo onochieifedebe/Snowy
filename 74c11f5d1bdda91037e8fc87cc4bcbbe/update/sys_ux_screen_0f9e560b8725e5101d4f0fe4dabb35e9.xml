@@ -4,11 +4,11 @@
         <app_config display_value="CERS Agent Work Space">c91912c38725e5101d4f0fe4dabb35ee</app_config>
         <description/>
         <event_mappings/>
-        <macroponent display_value="Standard record page">2a9e160b8725e5101d4f0fe4dabb3568</macroponent>
+        <macroponent display_value="home">2a9e160b8725e5101d4f0fe4dabb3568</macroponent>
         <macroponent_config>{ }</macroponent_config>
         <name>home</name>
         <order>0</order>
-        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
         <required_translations>[ ]</required_translations>
         <rollback_screen/>
         <screen_condition/>

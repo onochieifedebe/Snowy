@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="business_facility_name" table="x_acal_calepa_cers_nextgen">
         <active>true</active>
         <array>false</array>
-        <attributes>readonly_clickthrough=true</attributes>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true</attributes>
         <audit>false</audit>
         <calculation><![CDATA[(function calculatedFieldValue(current) {
 
@@ -52,7 +52,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-03-08 16:15:59</sys_created_on>
-        <sys_id>df38030c87a1e1101d4f0fe4dabb354e</sys_id>
         <sys_name>Business Facility Name</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>

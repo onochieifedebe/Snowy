@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_alias">
+    <sys_alias action="INSERT_OR_UPDATE">
+        <configuration_template/>
+        <connection_type>sys_connection</connection_type>
+        <id>x_acal_calepa.Git_PDI</id>
+        <multiple_connections>false</multiple_connections>
+        <name>Git-PDI</name>
+        <parent/>
+        <retry_policy display_value="Default SFTP Retry Policy">e385484773100010e3a71afe2ff6a709</retry_policy>
+        <sys_class_name>sys_alias</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-07-12 20:21:00</sys_created_on>
+        <sys_id>f4e874301b88b5102486edbbbc4bcbbd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_acal_calepa.Git_PDI</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_alias_f4e874301b88b5102486edbbbc4bcbbd</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-07-12 20:21:00</sys_updated_on>
+        <type>connection</type>
+    </sys_alias>
+</record_update>

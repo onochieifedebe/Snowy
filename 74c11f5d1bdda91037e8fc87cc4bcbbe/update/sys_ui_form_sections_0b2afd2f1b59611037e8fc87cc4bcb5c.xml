@@ -9,8 +9,8 @@
             <sys_id>132afd2f1b59611037e8fc87cc4bcb6a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">d32afd2f1b59611037e8fc87cc4bcb63</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">d32afd2f1b59611037e8fc87cc4bcb63</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
         </sys_ui_form_section>
@@ -23,8 +23,8 @@
             <sys_id>572afd2f1b59611037e8fc87cc4bcb71</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
-            <sys_ui_section caption="Notes" display_value="Notes" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">d72afd2f1b59611037e8fc87cc4bcb6d</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">d72afd2f1b59611037e8fc87cc4bcb6d</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
         </sys_ui_form_section>
@@ -37,8 +37,8 @@
             <sys_id>df2afd2f1b59611037e8fc87cc4bcb62</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
-            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">db2afd2f1b59611037e8fc87cc4bcb5e</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
+            <sys_ui_section caption="Closure information" display_value="Closure information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">db2afd2f1b59611037e8fc87cc4bcb5e</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
         </sys_ui_form_section>
@@ -51,8 +51,8 @@
             <sys_id>d32afd2f1b59611037e8fc87cc4bcb6d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
-            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
-            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="2a28b0f97393001022139a1ee2f6a7d1">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">0b2afd2f1b59611037e8fc87cc4bcb5c</sys_ui_form>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="07a797ce1b1325102486edbbbc4bcb25">172afd2f1b59611037e8fc87cc4bcb6a</sys_ui_section>
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:23</sys_updated_on>
         </sys_ui_form_section>
@@ -75,7 +75,7 @@
             <sys_updated_by>onochie.ifedebe</sys_updated_by>
             <sys_updated_on>2023-03-06 21:16:22</sys_updated_on>
             <sys_user/>
-            <view display_value="Outsourced Customer Service" name="outsourced_customer_service">2a28b0f97393001022139a1ee2f6a7d1</view>
+            <view display_value="Outsourced Customer Service" name="outsourced_customer_service">07a797ce1b1325102486edbbbc4bcb25</view>
             <view_name/>
         </sys_ui_form>
     </sys_ui_form_sections>

@@ -45,7 +45,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value=" Debesish Banerjee">74281c231bbca51037e8fc87cc4bcbe1</owner>
+        <owner display_value="">74281c231bbca51037e8fc87cc4bcbe1</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 

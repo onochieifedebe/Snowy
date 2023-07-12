@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0340853187e9a1101d4f0fe4dabb3515" label="Consolidated Emegency Response or Contingency Plan" max_length="40" name="x_acal_calepa_consolidated_submittal" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="New String" max_length="40" name="u_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Facility ID" max_length="32" name="u_subittal_facility_id" reference="x_acal_calepa_business_org_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Date Of Plan Preparation/Revision" max_length="40" name="u_submitall_date" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Calling Hazardous Waste Contractor" max_length="40" name="u_submital_call_hazardous" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Activating In-House Emergency Response Team" max_length="40" name="u_submittal_activate_response" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Name" max_length="40" name="u_submittal_business_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type of Business (e.g., Painting Contractor)" max_length="40" name="u_submittal_business_type" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Calling Public Emergency Responders (e.g., 9-1-1)" max_length="40" name="u_submittal_call_public" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="CERS ID" max_length="40" name="u_submittal_cers_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Hazardous Materials" max_length="40" name="u_submittal_hazardous_material" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Hazardous Wastes" max_length="40" name="u_submittal_hazardous_waste" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Incidental Operations (e.g., Fleet Maintenance)" max_length="40" name="u_submittal_incident" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Site Address" max_length="40" name="u_submittal_site_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Site City" max_length="40" name="u_submittal_site_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Business Site Sate" max_length="40" name="u_submittal_site_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Zip Code" max_length="40" name="u_submittal_zip" type="string"/>
+        <index name="index">
+            <element name="u_subittal_facility_id"/>
+        </index>
+    </element>
+</database>

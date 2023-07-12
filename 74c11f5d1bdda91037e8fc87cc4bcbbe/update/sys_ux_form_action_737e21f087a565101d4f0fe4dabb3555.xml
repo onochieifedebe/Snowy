@@ -19,6 +19,6 @@
         <sys_updated_by>debesish.banerjee</sys_updated_by>
         <sys_updated_on>2023-03-10 17:37:46</sys_updated_on>
         <table>x_acal_calepa_chemical_library</table>
-        <ui_action display_value="">e3dd29b087a565101d4f0fe4dabb350a</ui_action>
+        <ui_action display_value="Verify CAS">e3dd29b087a565101d4f0fe4dabb350a</ui_action>
     </sys_ux_form_action>
 </record_update>

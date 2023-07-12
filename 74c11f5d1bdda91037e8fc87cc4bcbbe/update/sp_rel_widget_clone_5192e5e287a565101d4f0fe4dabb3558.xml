@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of Icon Link">d192e5e287a565101d4f0fe4dabb3554</child>
+        <child display_value="CalEPA Icon Link">d192e5e287a565101d4f0fe4dabb3554</child>
         <cloned>2023-03-16 03:15:05</cloned>
         <last_validated>2023-03-16 03:15:05</last_validated>
         <parent display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</parent>

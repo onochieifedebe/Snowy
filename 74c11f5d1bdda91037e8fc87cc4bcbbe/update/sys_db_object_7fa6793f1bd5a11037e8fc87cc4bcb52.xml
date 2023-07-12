@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Asset" name="alm_asset">68d2660487a021101d4f0fe4dabb3524</super_class>
+        <super_class display_value="Asset" name="alm_asset">43dc8bf5e8a1211076da10591ad28744</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-03-07 15:41:00</sys_created_on>

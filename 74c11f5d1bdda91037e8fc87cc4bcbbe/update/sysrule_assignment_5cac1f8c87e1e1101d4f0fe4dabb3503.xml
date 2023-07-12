@@ -5,7 +5,7 @@
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </condition>
         <description/>
-        <group display_value="CERS Regulatory Authority" name="CERS Regulatory Authority">2f852b848725e1101d4f0fe4dabb3535</group>
+        <group display_value="">2f852b848725e1101d4f0fe4dabb3535</group>
         <match_conditions>ALL</match_conditions>
         <name>CERS REG Assignment</name>
         <order>100</order>

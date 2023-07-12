@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="u_site_id" table="x_acal_calepa_business_org_facilities_data">
         <active>true</active>
         <array>false</array>
-        <attributes>import_attribute_name=site_id</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=site_id</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-03-01 20:02:02</sys_created_on>
-        <sys_id>51397fbd1b9d2d1037e8fc87cc4bcb3b</sys_id>
         <sys_name>site_id</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>

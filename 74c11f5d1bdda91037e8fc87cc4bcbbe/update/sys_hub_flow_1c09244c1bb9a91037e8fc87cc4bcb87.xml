@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1c09244c1bb9a91037e8fc87cc4bcb87</sys_id>
-        <sys_mod_count>57</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>CalEPA Create New Facility Case</sys_name>
         <sys_overrides/>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
@@ -37,7 +37,7 @@
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
         <sys_update_name>sys_hub_flow_1c09244c1bb9a91037e8fc87cc4bcb87</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
-        <sys_updated_on>2023-04-07 10:38:46</sys_updated_on>
+        <sys_updated_on>2023-06-09 22:19:15</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1c09244c1bb9a91037e8fc87cc4bcb87"/>
@@ -557,11 +557,11 @@
         <sys_created_on>2023-03-20 15:09:30</sys_created_on>
         <sys_id>2d7c68001bf9a91037e8fc87cc4bcb6c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1c09244c1bb9a91037e8fc87cc4bcb87_table_name_en</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
         <sys_updated_on>2023-03-20 15:09:30</sys_updated_on>
         <url/>
@@ -580,11 +580,11 @@
         <sys_created_on>2023-03-20 15:09:30</sys_created_on>
         <sys_id>617c68001bf9a91037e8fc87cc4bcb69</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_1c09244c1bb9a91037e8fc87cc4bcb87_current_en</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
         <sys_updated_on>2023-03-20 15:09:30</sys_updated_on>
         <url/>
@@ -1114,11 +1114,11 @@
         <sys_created_on>2023-03-20 15:09:39</sys_created_on>
         <sys_id>2f7ca8001bf9a91037e8fc87cc4bcb63</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Table Name</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6f7ca8001bf9a91037e8fc87cc4bcb37_table_name_en</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
         <sys_updated_on>2023-03-20 15:09:39</sys_updated_on>
         <url/>
@@ -1137,11 +1137,11 @@
         <sys_created_on>2023-03-20 15:09:38</sys_created_on>
         <sys_id>ab7ca8001bf9a91037e8fc87cc4bcb5b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Record</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_6f7ca8001bf9a91037e8fc87cc4bcb37_current_en</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
         <sys_updated_on>2023-03-20 15:09:38</sys_updated_on>
         <url/>

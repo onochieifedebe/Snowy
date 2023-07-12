@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of Employee Center Header">28d5481187ad21101d4f0fe4dabb3517</child>
+        <child display_value="CERS Center Header">28d5481187ad21101d4f0fe4dabb3517</child>
         <cloned>2023-03-11 23:17:24</cloned>
         <last_validated>2023-03-11 23:17:24</last_validated>
         <parent display_value="Employee Center Header">d0009941eb103010ed7966d6475228c1</parent>

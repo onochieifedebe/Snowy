@@ -24,9 +24,9 @@
         <sys_id>0c35fb391b9d2d1037e8fc87cc4bcb65</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Calepa Business Org Facilities Data</sys_name>
-        <sys_package display_value="">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
-        <sys_scope display_value="">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
         <sys_update_name>sys_db_object_0c35fb391b9d2d1037e8fc87cc4bcb65</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
         <sys_updated_on>2023-03-01 20:02:01</sys_updated_on>

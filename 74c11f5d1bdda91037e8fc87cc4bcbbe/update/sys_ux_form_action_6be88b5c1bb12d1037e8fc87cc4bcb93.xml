@@ -19,6 +19,6 @@
         <sys_updated_by>eric.lund</sys_updated_by>
         <sys_updated_on>2023-03-21 21:11:36</sys_updated_on>
         <table>x_acal_calepa_cers_nextgen</table>
-        <ui_action display_value="">1268075c1bb12d1037e8fc87cc4bcbce</ui_action>
+        <ui_action display_value="Compare Submittals">1268075c1bb12d1037e8fc87cc4bcbce</ui_action>
     </sys_ux_form_action>
 </record_update>

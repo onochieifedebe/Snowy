@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="business_org" table="x_acal_calepa_cupa">
         <active>true</active>
         <array>false</array>
-        <attributes>encode_utf8=false</attributes>
+        <attributes>edge_encryption_enabled=true,encode_utf8=false</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -47,7 +47,6 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-02-28 04:23:27</sys_created_on>
-        <sys_id>3ac8d3151b11e91037e8fc87cc4bcb7c</sys_id>
         <sys_name>Business Org</sys_name>
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>

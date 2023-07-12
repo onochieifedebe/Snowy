@@ -8,7 +8,7 @@
             <sys_id>03a5eeee1b19211037e8fc87cc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
-            <sys_ui_section caption="Activities" display_value="Activities" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">43a5eeee1b19211037e8fc87cc4bcb66</sys_ui_section>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">43a5eeee1b19211037e8fc87cc4bcb66</sys_ui_section>
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:31</sys_updated_on>
             <sys_user/>
@@ -22,7 +22,7 @@
             <sys_id>83a5eeee1b19211037e8fc87cc4bcb67</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
-            <sys_ui_section caption="Activities" display_value="Activities" name="x_acal_calepa_facility_products" sys_domain="global" view="2522668087a021101d4f0fe4dabb3568">43a5eeee1b19211037e8fc87cc4bcb66</sys_ui_section>
+            <sys_ui_section caption="Activities" display_value="Activities" name="x_acal_calepa_facility_products" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">43a5eeee1b19211037e8fc87cc4bcb66</sys_ui_section>
             <sys_updated_by>debesish.banerjee</sys_updated_by>
             <sys_updated_on>2023-03-03 21:52:31</sys_updated_on>
             <sys_user/>
@@ -50,7 +50,7 @@
             <sys_updated_on>2023-03-03 21:52:30</sys_updated_on>
             <sys_user/>
             <title>false</title>
-            <view display_value="Workspace" name="workspace">2522668087a021101d4f0fe4dabb3568</view>
+            <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
             <view_name/>
         </sys_ui_section>
     </sys_ui_section>

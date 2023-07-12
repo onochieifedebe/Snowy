@@ -8,7 +8,7 @@
         <container_class_name/>
         <name>CalEPA Home Landing - Container 2</name>
         <order>2</order>
-        <sp_page display_value="copy_of_index_1">e06f6f591b51e91037e8fc87cc4bcbd2</sp_page>
+        <sp_page display_value="calepa_home_landing">e06f6f591b51e91037e8fc87cc4bcbd2</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>

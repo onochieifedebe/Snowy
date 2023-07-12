@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
     <sp_rel_widget_clone action="INSERT_OR_UPDATE">
-        <child display_value="Copy of Form">bc1d68bd8769a1101d4f0fe4dabb3589</child>
+        <child display_value="CalEPA Submital Form">bc1d68bd8769a1101d4f0fe4dabb3589</child>
         <cloned>2023-03-13 15:25:52</cloned>
         <last_validated>2023-03-13 15:25:52</last_validated>
         <parent display_value="Form">fd1f4ec347730200ba13a5554ee490c0</parent>

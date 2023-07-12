@@ -10,6 +10,7 @@ section.page, main.body {&#13;
 </css>
         <draft>false</draft>
         <dynamic_title_structure/>
+        <human_readable_url_structure/>
         <id>calepa_home_landing_alt</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>

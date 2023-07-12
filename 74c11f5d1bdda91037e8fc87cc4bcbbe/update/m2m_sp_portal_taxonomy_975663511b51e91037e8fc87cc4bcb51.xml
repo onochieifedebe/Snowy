@@ -2,7 +2,7 @@
     <m2m_sp_portal_taxonomy action="INSERT_OR_UPDATE">
         <active>true</active>
         <order>100</order>
-        <sp_portal display_value="CalEPA Portal">f39f9f991b11e91037e8fc87cc4bcb7e</sp_portal>
+        <sp_portal display_value="CERS Portal">f39f9f991b11e91037e8fc87cc4bcb7e</sp_portal>
         <sys_class_name>m2m_sp_portal_taxonomy</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-02-28 05:22:44</sys_created_on>

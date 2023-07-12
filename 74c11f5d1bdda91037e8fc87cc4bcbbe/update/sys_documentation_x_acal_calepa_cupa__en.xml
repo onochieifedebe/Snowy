@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="CUPA" language="en" table="x_acal_calepa_cupa">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>CUPA</label>
+            <language>en</language>
+            <name>x_acal_calepa_cupa</name>
+            <plural>CUPAs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-06-09 22:18:19</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>CUPA</sys_name>
+            <sys_package display_value="Global" source="global">global</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_documentation_x_acal_calepa_cupa__en</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-06-09 22:18:19</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

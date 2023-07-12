@@ -9,7 +9,7 @@
         <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
         <sys_policy/>
         <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
-        <sys_security_acl display_value="">8cc1d316876d25101d4f0fe4dabb356c</sys_security_acl>
+        <sys_security_acl display_value="x_acal_calepa_business_contacts">8cc1d316876d25101d4f0fe4dabb356c</sys_security_acl>
         <sys_update_name>sys_security_acl_role_e2d1d716876d25101d4f0fe4dabb35df</sys_update_name>
         <sys_updated_by>onochie.ifedebe</sys_updated_by>
         <sys_updated_on>2023-03-15 16:43:02</sys_updated_on>

@@ -4,6 +4,7 @@
         <css/>
         <draft>false</draft>
         <dynamic_title_structure>Manage Existing Facilities</dynamic_title_structure>
+        <human_readable_url_structure/>
         <id>calepa_manage_existing_facilities</id>
         <internal>false</internal>
         <omit_watcher>false</omit_watcher>

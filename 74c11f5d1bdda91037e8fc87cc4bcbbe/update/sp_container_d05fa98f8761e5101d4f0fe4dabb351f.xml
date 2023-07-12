@@ -8,7 +8,7 @@
         <container_class_name/>
         <name>Business Contact - Container 2</name>
         <order>2</order>
-        <sp_page display_value="copy_of_calepa_facility_form_1">045f698f8761e5101d4f0fe4dabb35a4</sp_page>
+        <sp_page display_value="calepa_business_contact">045f698f8761e5101d4f0fe4dabb35a4</sp_page>
         <subheader>false</subheader>
         <sys_class_name>sp_container</sys_class_name>
         <sys_created_by>eric.lund</sys_created_by>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7fa6793f1bd5a11037e8fc87cc4bcb52" extends="alm_asset" label="UnderGround Storage Tanks (UST)" max_length="40" name="x_acal_calepa_underground_storage_tanks_ust" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Facility" mandatory="true" max_length="32" name="business_facility" reference="x_acal_calepa_business_org_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="UST" label="Feature Type" max_length="40" name="feature_type" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Double Wall Fiberglass" value="double_wall_fiberglass"/>
+                <element inactive_on_update="false" label="Polyethylene" value="polyethylene"/>
+                <element inactive_on_update="false" label="Single Wall Fiberglass" value="single_wall_fiberglass"/>
+                <element inactive_on_update="false" label="Single Wall Steel" value="single_wall_steel"/>
+            </choice>
+        </element>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Feature Description" max_length="200" name="u_feature_description" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Volume" max_length="40" name="u_volume" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Volume Units" max_length="40" name="u_volume_units" type="string">
+            <choice>
+                <element inactive_on_update="false" label="gallon" sequence="0" value="gallon"/>
+                <element inactive_on_update="false" label="cubic-ft" sequence="1" value="cubic-ft"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="Year Manufactured" max_length="40" name="u_year_manafactured" type="integer"/>
+        <index name="index">
+            <element name="business_facility"/>
+        </index>
+    </element>
+</database>

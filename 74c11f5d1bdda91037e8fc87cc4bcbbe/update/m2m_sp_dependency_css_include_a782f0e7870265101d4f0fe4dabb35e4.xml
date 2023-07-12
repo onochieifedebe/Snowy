@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_css_include">
     <m2m_sp_dependency_css_include action="INSERT_OR_UPDATE">
         <order>100</order>
-        <sp_css_include display_value="https://unpkg.com/leaflet@1.9.3/dist/lea">2a7234e7870265101d4f0fe4dabb356d</sp_css_include>
+        <sp_css_include display_value="leaflet@1.9.3/css">2a7234e7870265101d4f0fe4dabb356d</sp_css_include>
         <sp_dependency display_value="CERS Agent Includes">6ef13ca7870265101d4f0fe4dabb356d</sp_dependency>
         <sys_class_name>m2m_sp_dependency_css_include</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>

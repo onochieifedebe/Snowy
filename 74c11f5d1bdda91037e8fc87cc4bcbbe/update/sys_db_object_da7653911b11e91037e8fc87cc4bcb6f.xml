@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Contact" name="customer_contact">25b22a9c87ec61101d4f0fe4dabb3551</super_class>
+        <super_class display_value="Contact" name="customer_contact">5f85f64e1b57e1102486edbbbc4bcbe5</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-02-28 04:13:19</sys_created_on>

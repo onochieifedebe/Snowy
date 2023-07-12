@@ -22,7 +22,6 @@
         <schedule display_value="8-5 weekdays excluding holidays">090eecae0a0a0b260077e1dfa71da828</schedule>
         <schedule_source>sla_definition</schedule_source>
         <schedule_source_field/>
-        <service_commitment>false</service_commitment>
         <set_start_to/>
         <start_condition table="x_acal_calepa_cers_nextgen">state=10^submittal_type=Emergency Response Contingency Plan^EQ<item display_value="Open" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="10"/>
             <item endquery="false" field="submittal_type" goto="false" newquery="false" operator="=" or="false" value="Emergency Response Contingency Plan"/>

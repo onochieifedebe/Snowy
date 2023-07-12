@@ -13,11 +13,11 @@
         <label>Facility Inventory</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_acal_calepa_facility_products</name>
-        <number_ref display_value="FPRD">76389bd11b11e91037e8fc87cc4bcbe5</number_ref>
+        <number_ref display_value="">76389bd11b11e91037e8fc87cc4bcbe5</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Asset" name="alm_asset">68d2660487a021101d4f0fe4dabb3524</super_class>
+        <super_class display_value="Asset" name="alm_asset">43dc8bf5e8a1211076da10591ad28744</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-02-28 04:20:58</sys_created_on>

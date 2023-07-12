@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_package_dependency_m2m">
+    <sys_package_dependency_m2m action="INSERT_OR_UPDATE">
+        <dependency display_value="Customer Service Base Entities" source="com.snc.cs_base">3285b64e1b57e1102486edbbbc4bcb9b</dependency>
+        <min_version>1.0.0</min_version>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:18:15</sys_created_on>
+        <sys_id>6f57974e1b1325102486edbbbc4bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:18:15</sys_updated_on>
+    </sys_package_dependency_m2m>
+</record_update>

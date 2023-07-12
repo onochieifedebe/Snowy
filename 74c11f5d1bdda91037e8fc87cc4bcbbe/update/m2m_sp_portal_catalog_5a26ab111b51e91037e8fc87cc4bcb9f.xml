@@ -3,7 +3,7 @@
         <active>true</active>
         <order>100</order>
         <sc_catalog display_value="CalEPA Service Catalog">703e5b591b11e91037e8fc87cc4bcb5f</sc_catalog>
-        <sp_portal display_value="CalEPA Portal">f39f9f991b11e91037e8fc87cc4bcb7e</sp_portal>
+        <sp_portal display_value="CERS Portal">f39f9f991b11e91037e8fc87cc4bcb7e</sp_portal>
         <sys_class_name>m2m_sp_portal_catalog</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-02-28 05:21:51</sys_created_on>

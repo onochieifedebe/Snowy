@@ -4,7 +4,7 @@
         <app_config display_value="MyTest">81202e4b8725e5101d4f0fe4dabb35b7</app_config>
         <description/>
         <event_mappings/>
-        <macroponent display_value="Standard record page">4e40628b8725e5101d4f0fe4dabb357d</macroponent>
+        <macroponent display_value="records default">4e40628b8725e5101d4f0fe4dabb357d</macroponent>
         <macroponent_config>{ }</macroponent_config>
         <name>records default</name>
         <order>0</order>

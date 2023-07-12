@@ -7,7 +7,7 @@
         <basic_auth_user/>
         <description/>
         <name>CERS EPA Site</name>
-        <oauth2_profile display_value="CERS EPA Site default_profile">74041cda1b9d6d1037e8fc87cc4bcbba</oauth2_profile>
+        <oauth2_profile display_value="CERS EPA Site Profile">74041cda1b9d6d1037e8fc87cc4bcbba</oauth2_profile>
         <protocol_name/>
         <rest_endpoint>https://acncsmdev.service-now.com/api/x_acal_epa_sites/epa_site_service</rest_endpoint>
         <sys_class_name>sys_rest_message</sys_class_name>

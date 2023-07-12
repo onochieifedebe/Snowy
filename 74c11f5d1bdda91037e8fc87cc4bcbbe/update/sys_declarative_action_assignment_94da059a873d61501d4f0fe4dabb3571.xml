@@ -7,7 +7,7 @@
         <action_type>type</action_type>
         <active>true</active>
         <button_type>primary</button_type>
-        <client_action display_value="Open Translate Page">eb625506319f5010f8777c12581bbc89</client_action>
+        <client_action display_value="">eb625506319f5010f8777c12581bbc89</client_action>
         <client_conditions/>
         <client_conditions_on_fields/>
         <client_script><![CDATA[function onClick() { }]]></client_script>
@@ -20,6 +20,7 @@
         <dependency/>
         <description/>
         <design_icon display_value="open-link-right-outline">open_link_right_outline</design_icon>
+        <enable_for_all_experiences>false</enable_for_all_experiences>
         <enabled>true</enabled>
         <experience_restricted>false</experience_restricted>
         <field_name/>
@@ -41,6 +42,7 @@
         <required_roles/>
         <requires_value>false</requires_value>
         <script_condition/>
+        <scripted_client_condition/>
         <server_script/>
         <specificity>31</specificity>
         <sys_class_name>sys_declarative_action_assignment</sys_class_name>

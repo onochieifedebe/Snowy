@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="User Activation Request" name="user_activation_request">66dcc4ee872165101d4f0fe4dabb35e6</super_class>
+        <super_class display_value="">66dcc4ee872165101d4f0fe4dabb35e6</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-03-15 22:29:44</sys_created_on>

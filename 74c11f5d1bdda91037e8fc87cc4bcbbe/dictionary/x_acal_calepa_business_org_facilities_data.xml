@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0c35fb391b9d2d1037e8fc87cc4bcb65" extends="sys_import_set_row" label="Business Org Facilities Data" max_length="40" name="x_acal_calepa_business_org_facilities_data" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=address" label="address" max_length="40" name="u_address" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=city" label="city" max_length="40" name="u_city" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=facility_n" label="facility_n" max_length="40" name="u_facility_n" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=latitude" label="latitude" max_length="40" name="u_latitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=longitude" label="longitude" max_length="40" name="u_longitude" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=site_id" label="site_id" max_length="40" name="u_site_id" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=state" label="state" max_length="40" name="u_state" type="string"/>
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=zip_code" label="zip_code" max_length="40" name="u_zip_code" type="string"/>
+    </element>
+</database>

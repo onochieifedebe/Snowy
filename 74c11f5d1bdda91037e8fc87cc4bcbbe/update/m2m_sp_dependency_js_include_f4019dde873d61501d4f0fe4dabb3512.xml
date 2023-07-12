@@ -2,7 +2,7 @@
     <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
         <order>400</order>
         <sp_dependency display_value="CER Agent Map Includes">59c0d9de873d61501d4f0fe4dabb35d0</sp_dependency>
-        <sp_js_include display_value="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js">18fe08921b5ae8108872b88e034bcbf4</sp_js_include>
+        <sp_js_include display_value="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js">18fe08921b5ae8108872b88e034bcbf4</sp_js_include>
         <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-03-27 17:35:32</sys_created_on>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="aec893151b11e91037e8fc87cc4bcb9b" extends="customer_account" label="CUPA" max_length="40" name="x_acal_calepa_cupa" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Facility" max_length="32" name="business_facility" reference="x_acal_calepa_business_org_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Org" max_length="32" name="business_org" reference="x_acal_calepa_business_org" type="reference"/>
+        <index name="index">
+            <element name="business_facility"/>
+        </index>
+        <index name="index2">
+            <element name="business_org"/>
+        </index>
+    </element>
+</database>

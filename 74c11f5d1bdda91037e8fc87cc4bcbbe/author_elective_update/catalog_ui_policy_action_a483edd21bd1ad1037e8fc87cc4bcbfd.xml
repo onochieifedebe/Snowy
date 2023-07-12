@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="DELETE">
+        <catalog_item display_value="Need to add a new Facility?">b10b1a698799a9101d4f0fe4dabb3585</catalog_item>
+        <catalog_variable>IO:6beb12a98799a9101d4f0fe4dabb3500</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field/>
+        <mandatory>ignore</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-02 22:25:13</sys_created_on>
+        <sys_id>a483edd21bd1ad1037e8fc87cc4bcbfd</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>epa_id</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_a483edd21bd1ad1037e8fc87cc4bcbfd</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-06 19:51:52</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make EPA ID Editable">261369d21bd1ad1037e8fc87cc4bcbcc</ui_policy>
+        <variable>epa_id</variable>
+        <variable_set/>
+        <visible>true</visible>
+    </catalog_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</application>
+        <file_path/>
+        <instance_id>afbbb8d11b532d1c168f4089bd4bcb91</instance_id>
+        <instance_name>dev176016</instance_name>
+        <name>catalog_ui_policy_action_a483edd21bd1ad1037e8fc87cc4bcbfd</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action"><catalog_ui_policy_action action="INSERT_OR_UPDATE"><catalog_item display_value="Need to add a new Facility?">b10b1a698799a9101d4f0fe4dabb3585</catalog_item><catalog_variable>IO:6beb12a98799a9101d4f0fe4dabb3500</catalog_variable><cleared>false</cleared><disabled>false</disabled><field/><mandatory>ignore</mandatory><order>100</order><sys_class_name>catalog_ui_policy_action</sys_class_name><sys_created_by>onochie.ifedebe</sys_created_by><sys_created_on>2023-03-02 22:25:13</sys_created_on><sys_id>a483edd21bd1ad1037e8fc87cc4bcbfd</sys_id><sys_mod_count>3</sys_mod_count><sys_name>epa_id</sys_name><sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package><sys_policy/><sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope><sys_update_name>catalog_ui_policy_action_a483edd21bd1ad1037e8fc87cc4bcbfd</sys_update_name><sys_updated_by>onochie.ifedebe</sys_updated_by><sys_updated_on>2023-03-06 19:51:52</sys_updated_on><table/><ui_policy display_value="Make EPA ID Editable">261369d21bd1ad1037e8fc87cc4bcbcc</ui_policy><variable>epa_id</variable><variable_set/><visible>true</visible></catalog_ui_policy_action></record_update>]]></payload>
+        <payload_hash>-2128868857</payload_hash>
+        <record_name>epa_id</record_name>
+        <reverted_from/>
+        <source>d0471f0e1b1325102486edbbbc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:18:31</sys_created_on>
+        <sys_id>97679b4e1b1325102486edbbbc4bcbd7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188a23d5f260000001</sys_recorded_at>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:18:31</sys_updated_on>
+        <type>Catalog UI Policy Action</type>
+        <update_guid>99d6a5eb41196110bff809dc6076e688</update_guid>
+        <update_guid_history>99d6a5eb41196110bff809dc6076e688:-2128868857,2312129ec855ad10b52afc2e945158bb:-594631421,a51ce91e06d1ad10d20f79a0072bf16c:-2128868857,2893211618d1ad103d14591bd1c6bef2:-594631421</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="epa_id">fc585f021b5325102486edbbbc4bcb69</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:22:25</sys_created_on>
+        <sys_db_object display_value="" name="catalog_ui_policy_action">catalog_ui_policy_action</sys_db_object>
+        <sys_id>3a9e713e848d446c9c791de603ef0dc4</sys_id>
+        <sys_metadata>a483edd21bd1ad1037e8fc87cc4bcbfd</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>epa_id</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope_delete display_value="">3275abb307874fd8930dc17c2af7b390</sys_scope_delete>
+        <sys_update_name>catalog_ui_policy_action_a483edd21bd1ad1037e8fc87cc4bcbfd</sys_update_name>
+        <sys_update_version display_value="catalog_ui_policy_action_a483edd21bd1ad1037e8fc87cc4bcbfd">97679b4e1b1325102486edbbbc4bcbd7</sys_update_version>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:22:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

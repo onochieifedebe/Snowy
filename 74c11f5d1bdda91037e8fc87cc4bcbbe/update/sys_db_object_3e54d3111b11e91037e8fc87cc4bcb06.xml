@@ -17,7 +17,7 @@
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>
-        <super_class display_value="Account" name="customer_account">49b2e69c87ec61101d4f0fe4dabb35fb</super_class>
+        <super_class display_value="Account" name="customer_account">4785f64e1b57e1102486edbbbc4bcb56</super_class>
         <sys_class_name>sys_db_object</sys_class_name>
         <sys_created_by>onochie.ifedebe</sys_created_by>
         <sys_created_on>2023-02-28 04:04:03</sys_created_on>

@@ -46,7 +46,7 @@
         <omit_price>false</omit_price>
         <order>0</order>
         <ordered_item_link/>
-        <owner display_value="Eric Lund">3330365687e925101d4f0fe4dabb3500</owner>
+        <owner display_value="">3330365687e925101d4f0fe4dabb3500</owner>
         <picture/>
         <post_insert_script><![CDATA[/**
 * This script is executed after the record is generated. 

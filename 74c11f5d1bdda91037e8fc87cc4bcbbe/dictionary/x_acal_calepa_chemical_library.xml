@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="95379b911b11e91037e8fc87cc4bcbc0" extends="cmdb_model" label="Chemical Library" max_length="40" name="x_acal_calepa_chemical_library" type="collection">
+        <element label="CAS Registry Number" max_length="100" name="cas_registry_number" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>
