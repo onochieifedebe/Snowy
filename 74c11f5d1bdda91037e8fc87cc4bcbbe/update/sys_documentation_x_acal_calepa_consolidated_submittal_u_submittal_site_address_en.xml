@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_submittal_site_address" label="Business Site Address" language="en" table="x_acal_calepa_consolidated_submittal">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_submittal_site_address</element>
+            <help/>
+            <hint/>
+            <label>Business Site Address</label>
+            <language>en</language>
+            <name>x_acal_calepa_consolidated_submittal</name>
+            <plural>Business Site Address</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-13 17:30:52</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Business Site Address</sys_name>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_documentation_x_acal_calepa_consolidated_submittal_u_submittal_site_address_en</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-13 17:30:52</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

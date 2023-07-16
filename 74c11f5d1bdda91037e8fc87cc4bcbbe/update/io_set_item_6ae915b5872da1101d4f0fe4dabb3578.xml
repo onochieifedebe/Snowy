@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>120</order>
+        <sc_cat_item display_value="Emergency Response Contingency Plan">1069d975872da1101d4f0fe4dabb3555</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-13 18:41:46</sys_created_on>
+        <sys_id>6ae915b5872da1101d4f0fe4dabb3578</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Facility Variable Set.Emergency Response Contigency Plan</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>io_set_item_6ae915b5872da1101d4f0fe4dabb3578</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-13 20:27:03</sys_updated_on>
+        <variable_set display_value="Facility Variable Set">6ad919b5872da1101d4f0fe4dabb35a1</variable_set>
+    </io_set_item>
+</record_update>

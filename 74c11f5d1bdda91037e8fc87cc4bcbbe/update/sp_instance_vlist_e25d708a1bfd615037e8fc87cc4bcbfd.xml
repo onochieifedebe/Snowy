@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>number</display_field>
+        <field_list/>
+        <filter/>
+        <glyph>arrow-circle-down</glyph>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">2de5bde287e565101d4f0fe4dabb352e</sp_column>
+        <sp_page display_value="calepa_ust_form">a1c9b5911b39ed1037e8fc87cc4bcbee</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-26 21:31:09</sys_created_on>
+        <sys_id>e25d708a1bfd615037e8fc87cc4bcbfd</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Underground Storage Tanks</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_instance_vlist_e25d708a1bfd615037e8fc87cc4bcbfd</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-04-11 21:13:51</sys_updated_on>
+        <table>x_acal_calepa_underground_storage_tanks_ust</table>
+        <title>Underground Storage Tanks</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "business_facility,feature_type",
+		"displayValue": "business_facility,feature_type"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "Default view",
+		"displayValue": "Default view"
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=e25d708a1bfd615037e8fc87cc4bcbfd"/>
+</record_update>

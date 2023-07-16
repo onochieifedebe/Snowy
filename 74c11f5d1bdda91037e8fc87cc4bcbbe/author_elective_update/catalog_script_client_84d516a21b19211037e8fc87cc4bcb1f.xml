@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Need to add a new Facility?">b10b1a698799a9101d4f0fe4dabb3585</cat_item>
+        <cat_variable>IO:6beb12a98799a9101d4f0fe4dabb3500</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>getFacSiteByEpaId</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+	
+// 	if (newValue.length < 14 || newValue.substring(0,5) != 'EPAID'){
+// 		g_form.showFieldMsg('epa_id','Invalid EPA ID', 'warning');
+// 		return;
+// 	}
+
+    var ga = new GlideAjax('EPAUtil');
+    ga.addParam('sysparm_name', 'getFactorySite');
+    ga.addParam('sysparm_epaid', newValue);
+    ga.getXML(callBackFunction);
+
+
+
+    function callBackFunction(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+	
+		if (answer) {
+			g_form.addInfoMessage("Scroll Down to verify all Entries.");
+        var fcdetail = JSON.parse(answer);
+
+        g_form.setValue('name', fcdetail.facility_name);
+        g_form.setValue('street', fcdetail.address);
+        g_form.setValue('city', fcdetail.city);
+        g_form.setValue('state', fcdetail.state.toUpperCase());
+        g_form.setValue('zip', fcdetail.zip_code);
+        g_form.setValue('latitude', fcdetail.latitude);
+        g_form.setValue('longitude', fcdetail.longitude);
+        g_form.setValue('fac_site_id', fcdetail.site_id);
+        var epa_location = fcdetail.address + "," + fcdetail.city + "," + fcdetail.state.toUpperCase() + "," + fcdetail.zip_code;
+        g_form.setValue('location', epa_location);
+		}
+		else{
+			g_form.showFieldMsg('epa_id','WARNING: Invalid EPA ID #.  Please engage with CA Department of Toxic Substances Control to obtain an EPA ID # prior to proceeding with CERS', 'warning');
+			return;
+		}
+    }
+
+
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-03 21:01:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>84d516a21b19211037e8fc87cc4bcb1f</sys_id>
+        <sys_mod_count>50</sys_mod_count>
+        <sys_name>getFacSiteByEpaId</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>catalog_script_client_84d516a21b19211037e8fc87cc4bcb1f</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-10 08:42:59</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>1</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</application>
+        <file_path/>
+        <instance_id>afbbb8d11b532d1c168f4089bd4bcb91</instance_id>
+        <instance_name>dev176016</instance_name>
+        <name>catalog_script_client_84d516a21b19211037e8fc87cc4bcb1f</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Need to add a new Facility?"&gt;b10b1a698799a9101d4f0fe4dabb3585&lt;/cat_item&gt;&lt;cat_variable&gt;IO:6beb12a98799a9101d4f0fe4dabb3500&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;getFacSiteByEpaId&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+    if (isLoading || newValue == '') {
+        return;
+    }
+	
+// 	if (newValue.length &lt; 14 || newValue.substring(0,5) != 'EPAID'){
+// 		g_form.showFieldMsg('epa_id','Invalid EPA ID', 'warning');
+// 		return;
+// 	}
+
+    var ga = new GlideAjax('EPAUtil');
+    ga.addParam('sysparm_name', 'getFactorySite');
+    ga.addParam('sysparm_epaid', newValue);
+    ga.getXML(callBackFunction);
+
+
+
+    function callBackFunction(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+	
+		if (answer) {
+			g_form.addInfoMessage("Scroll Down to verify all Entries.");
+        var fcdetail = JSON.parse(answer);
+
+        g_form.setValue('name', fcdetail.facility_name);
+        g_form.setValue('street', fcdetail.address);
+        g_form.setValue('city', fcdetail.city);
+        g_form.setValue('state', fcdetail.state.toUpperCase());
+        g_form.setValue('zip', fcdetail.zip_code);
+        g_form.setValue('latitude', fcdetail.latitude);
+        g_form.setValue('longitude', fcdetail.longitude);
+        g_form.setValue('fac_site_id', fcdetail.site_id);
+        var epa_location = fcdetail.address + "," + fcdetail.city + "," + fcdetail.state.toUpperCase() + "," + fcdetail.zip_code;
+        g_form.setValue('location', epa_location);
+		}
+		else{
+			g_form.showFieldMsg('epa_id','WARNING: Invalid EPA ID #.  Please engage with CA Department of Toxic Substances Control to obtain an EPA ID # prior to proceeding with CERS', 'warning');
+			return;
+		}
+    }
+
+
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;onochie.ifedebe&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-03 21:01:35&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;84d516a21b19211037e8fc87cc4bcb1f&lt;/sys_id&gt;&lt;sys_mod_count&gt;50&lt;/sys_mod_count&gt;&lt;sys_name&gt;getFacSiteByEpaId&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="CalEPA" source="x_acal_calepa"&gt;74c11f5d1bdda91037e8fc87cc4bcbbe&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="CalEPA"&gt;74c11f5d1bdda91037e8fc87cc4bcbbe&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_84d516a21b19211037e8fc87cc4bcb1f&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;onochie.ifedebe&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-10 08:42:59&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;1&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>45755106</payload_hash>
+        <record_name>getFacSiteByEpaId</record_name>
+        <reverted_from/>
+        <source>d0471f0e1b1325102486edbbbc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:18:30</sys_created_on>
+        <sys_id>5f679b4e1b1325102486edbbbc4bcbb1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188a23d5d6d0000001</sys_recorded_at>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:18:30</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>0a14376cd1ed2510d4cbbb7d1ffcc2b7</update_guid>
+        <update_guid_history>0a14376cd1ed2510d4cbbb7d1ffcc2b7:45755106,5643ffe8faed251006e1534413a80d20:-1294934306,38033fe864ed25102fe4b7343c5448ea:-9049086,95b38d2c1ca52510b3517d9a1d82402f:-754696131,2cb5aca0f9652510d50f84926414676b:-161212326,443c111c08a9e110ebde5cc8ff4a776f:-754696131,fc74cdd46869e11018d261576f6ead33:-88617866,4c43cd941969e110642829e4c18e75ce:-839154152,4831cd14c069e1106370ab3c2cb855b9:-1318622327,87fdbc50c869e110c00bd23c63b6c710:1826396265,4b2cb050a469e11069d9dee1451d9146:1455710732,7c9bbcdc0129e110bd181f16a7738d70:-182267896,5e64867be519a110d170a3a5f4c5b920:1254238845,4e63797bbcd5a11084587685bf689524:1073276652,c2a4d1ab7fd561107944bef965200544:-1661030655,5793156b7cd56110544d7fd4740cfd46:571082955,aca2512b01d5611041bb88a2fbbaf0c1:858307141,22429de7a9d56110e179f7889bafc92e:300425039,f640d5674ad56110987ee0ba33deacad:671250574,1efecd277ad561104249994db4307f32:1942250656,e21ecde3ead5611044485fb3a01bea4e:1819005799,b9dd89e320d561107d48a1b14c15d3ca:1263969486,af1dc9a3d8d56110c932e0cb4a4cd35e:1819005799,a1ec85a330d56110980461a543b8802b:-723148978,9e8981ef9a9561104ff2e6635dc98a37:1980674252,cea345abdb956110f23496925680b217:-343211410,e243cd6ba0956110ea2d5023a06dbec2:-1867416054,f313096b499561103faeefb4e6bc63e1:-1294684310,4fd24d2bb1956110520be3d97dccc647:-1243593407,4b61c12b47956110b8e46f3057898ee8:788112583,a45041e7ed9561101926381020ab1670:951412839,1c300da753956110c0f71866432ec5db:1686171220,04fe7c67fa956110aac9f6b4b236660b:-249527607,38beb467f8956110df6897cb1cab1192:-654278997,cbed3427a395611026f6dabbe0416989:-678891056,e7a5706fe1556110e81d6af0b466ade8:1520543085,996bb6e2b69921100c995681e610cb3e:1863687801,313afa62309921104ac68c6498a4f6dc:2099288648,79997a6279992110b0376f1366a56c08:1863687801,b0a8fe22f59921102d9d02869715ff8e:911965645,e23136aa3e59211043f3a7df4052a2f3:2019326033,c831b2aa03592110a85f2b6ec3b73027:-970560225,daf0fe6a055921100bb0ee8159b4aaf3:-2062245368,1cb07e6a7759211073d5ecb85cb08046:-1106724089,71603a6ad8592110f3996a5b628f1c5e:-612381045,7400b26ab8592110cd68057ff471d14c:1114671109,e4af2e2acf592110f8dbe94605ae3ef1:-537855817,1a5f2a2afc59211041c01b0e61e19300:195945058,379eeee6b15921103f8038c7169c7401:-1681475188,7f5eeae6c5592110d25ec98dfc5acb20:-1556506048,cd0a9e667f192110449e61d56df2a184:-1843081088</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:22:25</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>060c1607c9a54df580adf627e74f19a1</sys_id>
+        <sys_metadata>84d516a21b19211037e8fc87cc4bcb1f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>getFacSiteByEpaId</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope_delete display_value="">3275abb307874fd8930dc17c2af7b390</sys_scope_delete>
+        <sys_update_name>catalog_script_client_84d516a21b19211037e8fc87cc4bcb1f</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_84d516a21b19211037e8fc87cc4bcb1f">5f679b4e1b1325102486edbbbc4bcbb1</sys_update_version>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:22:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

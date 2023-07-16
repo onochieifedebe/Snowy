@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="57d8759c1b7de91037e8fc87cc4bcb0e" sys_domain="global" table="x_acal_calepa_underground_storage_tanks_ust" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>661cbd501bbde91037e8fc87cc4bcb38</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>261cbd501bbde91037e8fc87cc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_facility</element>
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>2a1cbd501bbde91037e8fc87cc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>feature_type</element>
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>2e1cbd501bbde91037e8fc87cc4bcb45</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model_category</element>
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>221cbd501bbde91037e8fc87cc4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>model</element>
+            <position>5</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>261cbd501bbde91037e8fc87cc4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>2a1cbd501bbde91037e8fc87cc4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_year_manafactured</element>
+            <position>7</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>2e1cbd501bbde91037e8fc87cc4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_feature_description</element>
+            <position>8</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>221cbd501bbde91037e8fc87cc4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_volume</element>
+            <position>9</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>261cbd501bbde91037e8fc87cc4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_volume_units</element>
+            <position>10</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:35:57</sys_created_on>
+            <sys_id>2a1cbd501bbde91037e8fc87cc4bcb47</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="Default view">57d8759c1b7de91037e8fc87cc4bcb0e</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:35:57</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_acal_calepa_underground_storage_tanks_ust</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>57d8759c1b7de91037e8fc87cc4bcb0e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_underground_storage_tanks_ust</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_section_57d8759c1b7de91037e8fc87cc4bcb0e</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:48</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

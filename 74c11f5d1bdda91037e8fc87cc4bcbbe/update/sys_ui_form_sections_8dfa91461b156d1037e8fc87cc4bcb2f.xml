@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="8dfa91461b156d1037e8fc87cc4bcb2f" sys_domain="global" table="x_acal_calepa_chemical_library" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>11fad1461b156d1037e8fc87cc4bcbef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_chemical_library" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">8dfa91461b156d1037e8fc87cc4bcb2f</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">99fad1461b156d1037e8fc87cc4bcbea</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>91fad1461b156d1037e8fc87cc4bcbfb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_chemical_library" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">8dfa91461b156d1037e8fc87cc4bcb2f</sys_ui_form>
+            <sys_ui_section caption="General" display_value="General" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">55fad1461b156d1037e8fc87cc4bcbf2</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddfad1461b156d1037e8fc87cc4bcbf1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_chemical_library" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">8dfa91461b156d1037e8fc87cc4bcb2f</sys_ui_form>
+            <sys_ui_section caption="Compatibles" display_value="Compatibles" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">95fad1461b156d1037e8fc87cc4bcbef</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ddfad1461b156d1037e8fc87cc4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_chemical_library" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">8dfa91461b156d1037e8fc87cc4bcb2f</sys_ui_form>
+            <sys_ui_section caption="Assets" display_value="Assets" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">5dfa91461b156d1037e8fc87cc4bcb32</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51fad1461b156d1037e8fc87cc4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_chemical_library" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">8dfa91461b156d1037e8fc87cc4bcb2f</sys_ui_form>
+            <sys_ui_section caption="Configuration items" display_value="Configuration items" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">19fad1461b156d1037e8fc87cc4bcbfb</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>5</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:07</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9dfa15461b156d1037e8fc87cc4bcb02</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_chemical_library" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">8dfa91461b156d1037e8fc87cc4bcb2f</sys_ui_form>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:07</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_acal_calepa_chemical_library</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8dfa91461b156d1037e8fc87cc4bcb2f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_chemical_library</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_form_sections_8dfa91461b156d1037e8fc87cc4bcb2f</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:05</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

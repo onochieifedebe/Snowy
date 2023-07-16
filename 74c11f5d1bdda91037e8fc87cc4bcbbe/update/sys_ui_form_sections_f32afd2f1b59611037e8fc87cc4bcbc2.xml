@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="f32afd2f1b59611037e8fc87cc4bcbc2" sys_domain="global" table="x_acal_calepa_cers_nextgen" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>732afd2f1b59611037e8fc87cc4bcbd6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">f32afd2f1b59611037e8fc87cc4bcbc2</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">3b2afd2f1b59611037e8fc87cc4bcbd0</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b72afd2f1b59611037e8fc87cc4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">f32afd2f1b59611037e8fc87cc4bcbc2</sys_ui_form>
+            <sys_ui_section caption="Notes" display_value="Notes" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">b72afd2f1b59611037e8fc87cc4bcbc4</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>483afd2f1b59611037e8fc87cc4bcbda</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">f32afd2f1b59611037e8fc87cc4bcbc2</sys_ui_form>
+            <sys_ui_section caption="Resolution Information" display_value="Resolution Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">772afd2f1b59611037e8fc87cc4bcbd6</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:26</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>372afd2f1b59611037e8fc87cc4bcbd0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">f32afd2f1b59611037e8fc87cc4bcbc2</sys_ui_form>
+            <sys_ui_section caption="Major Case Information" display_value="Major Case Information" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">3f2afd2f1b59611037e8fc87cc4bcbcc</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3b2afd2f1b59611037e8fc87cc4bcbcc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_acal_calepa_cers_nextgen" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">f32afd2f1b59611037e8fc87cc4bcbc2</sys_ui_form>
+            <sys_ui_section caption="Related Records" display_value="Related Records" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="9bb8fa421b1be1102486edbbbc4bcb48">bb2afd2f1b59611037e8fc87cc4bcbc8</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:25</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_acal_calepa_cers_nextgen</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-06 21:16:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f32afd2f1b59611037e8fc87cc4bcbc2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_cers_nextgen</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_form_sections_f32afd2f1b59611037e8fc87cc4bcbc2</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-06 21:16:25</sys_updated_on>
+            <sys_user/>
+            <view display_value="Major Case" name="major_case">9bb8fa421b1be1102486edbbbc4bcb48</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

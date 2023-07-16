@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_dependency_js_include">
+    <m2m_sp_dependency_js_include action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <sp_dependency display_value="Bootstrap v5.3">d24efdaa87e565101d4f0fe4dabb354a</sp_dependency>
+        <sp_js_include display_value="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js">fa1f3dea87e565101d4f0fe4dabb3589</sp_js_include>
+        <sys_class_name>m2m_sp_dependency_js_include</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-16 05:20:17</sys_created_on>
+        <sys_id>df3fbdea87e565101d4f0fe4dabb3500</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Bootstrap v5.3.https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>m2m_sp_dependency_js_include_df3fbdea87e565101d4f0fe4dabb3500</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-16 05:20:17</sys_updated_on>
+    </m2m_sp_dependency_js_include>
+</record_update>

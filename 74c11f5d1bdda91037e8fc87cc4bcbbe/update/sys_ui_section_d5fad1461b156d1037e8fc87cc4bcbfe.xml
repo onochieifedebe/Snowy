@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="ArcGIS Maps" section_id="d5fad1461b156d1037e8fc87cc4bcbfe" sys_domain="global" table="x_acal_calepa_chemical_library" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_esrie_arcgismaps_model_height</element>
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>d1fad1461b156d1037e8fc87cc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_esrie_arcgismaps_model_width</element>
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>d5fad1461b156d1037e8fc87cc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_esrie_arcgismaps_model_depth</element>
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>d9fad1461b156d1037e8fc87cc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>ddfad1461b156d1037e8fc87cc4bcbff</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_esrie_arcgismaps_model_unit</element>
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>d1fa15461b156d1037e8fc87cc4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_esrie_arcgismaps_ru_slot_height</element>
+            <position>5</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>d5fa15461b156d1037e8fc87cc4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>x_esrie_arcgismaps_cmdb_model_object</element>
+            <position>6</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_id>d9fa15461b156d1037e8fc87cc4bcb00</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="ArcGIS Maps" display_value="ArcGIS Maps" name="x_acal_calepa_chemical_library" sys_domain="global" view="Default view">d5fad1461b156d1037e8fc87cc4bcbfe</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>ArcGIS Maps</caption>
+            <header>false</header>
+            <name>x_acal_calepa_chemical_library</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-02 03:09:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d5fad1461b156d1037e8fc87cc4bcbfe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_chemical_library</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_section_d5fad1461b156d1037e8fc87cc4bcbfe</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-02 03:09:06</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

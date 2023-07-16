@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list>number,name,business_org_role</field_list>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">6de5bde287e565101d4f0fe4dabb3525</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table - Instance Definition Wrapper">4ec37dae77c20110d3ef07dc7d5a997b</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-04-11 22:13:14</sys_created_on>
+        <sys_id>cf60a30387cee1101d4f0fe4dabb35d4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Business Org Contact</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_instance_table_cf60a30387cee1101d4f0fe4dabb35d4</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-04-11 22:20:03</sys_updated_on>
+        <table>x_acal_calepa_business_contacts</table>
+        <title>Business Org Contact</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=cf60a30387cee1101d4f0fe4dabb35d4"/>
+</record_update>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="Manage My Facilities Menu List">f6222f1687ad25101d4f0fe4dabb3549</child>
+        <cloned>2023-03-15 17:54:01</cloned>
+        <last_validated>2023-03-15 17:54:01</last_validated>
+        <parent display_value="Icon Menu List">88979930cb01020000f8d856634c9caa</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;standard&lt;/category&gt;&lt;client_script/&gt;&lt;controller_as/&gt;&lt;css/&gt;&lt;data_table&gt;sp_instance_menu&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list&gt;title,short_description,color,class_name,glyph&lt;/field_list&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id/&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;Icon Menu List&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;true&lt;/public&gt;&lt;roles/&gt;&lt;script&gt;&lt;![CDATA[// populate the 'data' variable
+$sp.getValues(data);
+data.items = $sp.getMenuItems($sp.getValue("sys_id"));]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2015-07-02 00:50:02&lt;/sys_created_on&gt;&lt;sys_id&gt;88979930cb01020000f8d856634c9caa&lt;/sys_id&gt;&lt;sys_mod_count&gt;133&lt;/sys_mod_count&gt;&lt;sys_name&gt;Icon Menu List&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;b208664087e021101d4f0fe4dabb356f&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_88979930cb01020000f8d856634c9caa&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-06-28 22:10:33&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div class="panel panel-default"&gt;
+  &lt;div class="panel-heading"&gt;
+    &lt;h4 style="margin-top: 0; margin-bottom: 0"&gt;
+      &lt;span ng-if="::data.glyph" class="fa-stack"&gt;
+        &lt;i class="fa fa-circle text-{{::data.color}} fa-stack-2x"&gt;&lt;/i&gt;
+        &lt;i class="fa fa-{{::data.glyph}} fa-stack-1x fa-inverse"&gt;&lt;/i&gt;
+      &lt;/span&gt;
+      &lt;span&gt;{{::data.title}}&lt;/span&gt;
+    &lt;/h4&gt;
+    &lt;div&gt;{{::data.short_description}}&lt;/div&gt;
+  &lt;/div&gt;
+
+  &lt;div class="list-group"&gt;
+    &lt;a class="list-group-item no-border" href="{{::item.href}}" target="{{::item.url_target}}" ng-repeat="item in ::data.items"&gt;
+      &lt;i ng-if="::item.glyph" class="fa fa-{{::item.glyph}} m-r-sm"&gt;&lt;/i&gt;
+      &lt;i ng-if="::!item.glyph" class="fa fa-chevron-right m-r-sm"&gt;&lt;/i&gt; {{::item.label}}&lt;/a&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>eric.lund</sys_created_by>
+        <sys_created_on>2023-03-15 17:54:01</sys_created_on>
+        <sys_id>3222af1687ad25101d4f0fe4dabb3595</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>f6222f1687ad25101d4f0fe4dabb3549</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_3222af1687ad25101d4f0fe4dabb3595</sys_update_name>
+        <sys_updated_by>eric.lund</sys_updated_by>
+        <sys_updated_on>2023-03-15 17:54:01</sys_updated_on>
+    </sp_rel_widget_clone>
+</record_update>

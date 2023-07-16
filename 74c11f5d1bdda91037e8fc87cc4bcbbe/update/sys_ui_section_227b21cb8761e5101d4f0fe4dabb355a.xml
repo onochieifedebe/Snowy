@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="227b21cb8761e5101d4f0fe4dabb355a" sys_domain="global" table="x_acal_calepa_cers_nextgen" version="3" view="sp">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>52b8c3af1bd2255037e8fc87cc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_org_name</element>
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>56b8c3af1bd2255037e8fc87cc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>business_facility_name</element>
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>5ab8c3af1bd2255037e8fc87cc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_business_org_contact_name</element>
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>5eb8c3af1bd2255037e8fc87cc4bcbbb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_by</element>
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>52b8c3af1bd2255037e8fc87cc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>opened_at</element>
+            <position>5</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>56b8c3af1bd2255037e8fc87cc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>6</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>5ab8c3af1bd2255037e8fc87cc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>7</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>5eb8c3af1bd2255037e8fc87cc4bcbbc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>8</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>52b8c3af1bd2255037e8fc87cc4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>9</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:21</sys_created_on>
+            <sys_id>56b8c3af1bd2255037e8fc87cc4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:21</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assigned_to</element>
+            <position>10</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:22</sys_created_on>
+            <sys_id>5ab8c3af1bd2255037e8fc87cc4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>11</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:22</sys_created_on>
+            <sys_id>5eb8c3af1bd2255037e8fc87cc4bcbbd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:22</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>short_description</element>
+            <position>12</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:22</sys_created_on>
+            <sys_id>52b8c3af1bd2255037e8fc87cc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>com_glideapp_questionset_default_question_editor.xml</element>
+            <position>13</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:22</sys_created_on>
+            <sys_id>66b8c3af1bd2255037e8fc87cc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Variable Editor">2d23a1fd872da1101d4f0fe4dabb35f9</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:22</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comments</element>
+            <position>14</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:22</sys_created_on>
+            <sys_id>6eb8c3af1bd2255037e8fc87cc4bcbbe</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:22</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity.xml</element>
+            <position>15</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-04-25 20:02:22</sys_created_on>
+            <sys_id>62b8c3af1bd2255037e8fc87cc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter display_value="Activities (filtered)">444ea5c6bf310100e628555b3f0739d6</sys_ui_formatter>
+            <sys_ui_section caption="NULL" display_value="" name="x_acal_calepa_cers_nextgen" sys_domain="global" view="ec2daaf9d7523100a9ad1e173e24d4ea">227b21cb8761e5101d4f0fe4dabb355a</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-04-25 20:02:22</sys_updated_on>
+            <sys_user/>
+            <type>formatter</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_acal_calepa_cers_nextgen</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-17 17:10:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>227b21cb8761e5101d4f0fe4dabb355a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_cers_nextgen</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_section_227b21cb8761e5101d4f0fe4dabb355a</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-17 17:10:54</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Service Portal" name="sp">ec2daaf9d7523100a9ad1e173e24d4ea</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

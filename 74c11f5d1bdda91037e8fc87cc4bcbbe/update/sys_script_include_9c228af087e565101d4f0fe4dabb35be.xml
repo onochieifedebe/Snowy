@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_acal_calepa.CASUtilAjax</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CASUtilAjax</name>
+        <script><![CDATA[var CASUtilAjax = Class.create();
+CASUtilAjax.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+    verifyCas: function() {
+        var v_cas_element = this.getParameter('cas_element');
+        var cas = new sn_ws.RESTMessageV2("CERS CAS API", "GET CAS");
+		
+		gs.info('CAS script include v_cas_element ' + v_cas_element);
+		
+        cas.setBasicAuth("cersepaintg", "Calenvdemo-1");
+        cas.setRequestHeader("Accept", "application/json");
+       
+		var v_content = {};
+        v_content.cas_element = v_cas_element;
+		var msg = JSON.stringify(v_content);
+		
+		cas.setRequestBody(msg);
+		cas.setHttpTimeout(10000);
+		
+		var response = cas.execute();
+		var responseBody = response.haveError() ? response.getErrorMessage() : response.getBody();
+		var status = response.getStatusCode();
+		
+		var respobj = {};
+		respobj.status = status;
+		respobj.responsebody =  responseBody;
+		
+		var resp = JSON.stringify(respobj);
+		
+		gs.info('CAS REST status ' + status);
+		gs.info('CAS REST response ' + responseBody);
+		
+		if (status == 200) {
+			var casdetails = JSON.parse(responseBody);
+			var v_cas_registry_number = casdetails.cas_registry_number;
+			
+			var grchl = new GlideRecord('x_acal_calepa_chemical_library');
+			grchl.addQuery('name', v_cas_element);
+			grchl.query();
+			
+			if (grchl.next()) {
+				grchl.setValue('cas_registry_number', v_cas_registry_number);
+				grchl.setValue('status', 'In Production');
+				grchl.update();
+				
+			}
+		}
+		return resp;
+		
+
+
+    },
+
+
+    type: 'CASUtilAjax'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-10 19:05:00</sys_created_on>
+        <sys_id>9c228af087e565101d4f0fe4dabb35be</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>CASUtilAjax</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_script_include_9c228af087e565101d4f0fe4dabb35be</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-10 21:00:05</sys_updated_on>
+    </sys_script_include>
+</record_update>

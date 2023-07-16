@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="DELETE">
+        <order>5</order>
+        <sc_cat_item display_value="Need to add a new Facility?">b10b1a698799a9101d4f0fe4dabb3585</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-02-28 18:37:03</sys_created_on>
+        <sys_id>762c5aa98799a9101d4f0fe4dabb3538</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Map Locator.Need to add a new Facility?</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>io_set_item_762c5aa98799a9101d4f0fe4dabb3538</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-16 14:30:26</sys_updated_on>
+        <variable_set display_value="Map Locator">10ec2e221b74e4108872b88e034bcbc5</variable_set>
+    </io_set_item>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</application>
+        <file_path/>
+        <instance_id>afbbb8d11b532d1c168f4089bd4bcb91</instance_id>
+        <instance_name>dev176016</instance_name>
+        <name>io_set_item_762c5aa98799a9101d4f0fe4dabb3538</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item"><io_set_item action="INSERT_OR_UPDATE"><order>5</order><sc_cat_item display_value="Need to add a new Facility?">b10b1a698799a9101d4f0fe4dabb3585</sc_cat_item><sys_class_name>io_set_item</sys_class_name><sys_created_by>onochie.ifedebe</sys_created_by><sys_created_on>2023-02-28 18:37:03</sys_created_on><sys_id>762c5aa98799a9101d4f0fe4dabb3538</sys_id><sys_mod_count>3</sys_mod_count><sys_name>Map Locator.Need to add a new Facility?</sys_name><sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package><sys_policy/><sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope><sys_update_name>io_set_item_762c5aa98799a9101d4f0fe4dabb3538</sys_update_name><sys_updated_by>onochie.ifedebe</sys_updated_by><sys_updated_on>2023-03-16 14:30:26</sys_updated_on><variable_set display_value="Map Locator">10ec2e221b74e4108872b88e034bcbc5</variable_set></io_set_item></record_update>]]></payload>
+        <payload_hash>1272028957</payload_hash>
+        <record_name>Map Locator.Need to add a new Facility?</record_name>
+        <reverted_from/>
+        <source>d0471f0e1b1325102486edbbbc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:18:34</sys_created_on>
+        <sys_id>d8771f4e1b1325102486edbbbc4bcb60</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188a23d6b500000001</sys_recorded_at>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:18:34</sys_updated_on>
+        <type>Catalog Variable Set</type>
+        <update_guid>de2d3b6665ad6510f38b21768d7166e6</update_guid>
+        <update_guid_history>de2d3b6665ad6510f38b21768d7166e6:1272028957,646cdaa9d799a910b9788093d083a54e:681166661,be2c5aa90999a910615a3cb573d3753d:-1888947167</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:22:27</sys_created_on>
+        <sys_db_object display_value="" name="io_set_item">io_set_item</sys_db_object>
+        <sys_id>087fa25ff5cf4364825131f4c2bf7490</sys_id>
+        <sys_metadata>762c5aa98799a9101d4f0fe4dabb3538</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Map Locator.Need to add a new Facility?</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope_delete display_value="">3275abb307874fd8930dc17c2af7b390</sys_scope_delete>
+        <sys_update_name>io_set_item_762c5aa98799a9101d4f0fe4dabb3538</sys_update_name>
+        <sys_update_version display_value="io_set_item_762c5aa98799a9101d4f0fe4dabb3538">d8771f4e1b1325102486edbbbc4bcb60</sys_update_version>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:22:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

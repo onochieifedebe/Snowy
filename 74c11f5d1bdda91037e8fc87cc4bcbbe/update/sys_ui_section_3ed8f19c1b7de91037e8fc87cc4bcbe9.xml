@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Financial" section_id="3ed8f19c1b7de91037e8fc87cc4bcbe9" sys_domain="global" table="x_acal_calepa_underground_storage_tanks_ust" version="3" view="workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>72d8359c1b7de91037e8fc87cc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>vendor</element>
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>bad8359c1b7de91037e8fc87cc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>invoice_number</element>
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>bed8359c1b7de91037e8fc87cc4bcbbf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_line</element>
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>b2d8359c1b7de91037e8fc87cc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost</element>
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>b6d8359c1b7de91037e8fc87cc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>5</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>bad8359c1b7de91037e8fc87cc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>request_line.opened_at</element>
+            <position>6</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>bed8359c1b7de91037e8fc87cc4bcbc0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gl_account</element>
+            <position>7</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>b2d8359c1b7de91037e8fc87cc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cost_center</element>
+            <position>8</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>b6d8359c1b7de91037e8fc87cc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>9</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>bad8359c1b7de91037e8fc87cc4bcbc1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Financial" display_value="Financial" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="0aaccb75e8a1211076da10591ad28743">3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Financial</caption>
+            <header>false</header>
+            <name>x_acal_calepa_underground_storage_tanks_ust</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_underground_storage_tanks_ust</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_section_3ed8f19c1b7de91037e8fc87cc4bcbe9</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Workspace" name="workspace">0aaccb75e8a1211076da10591ad28743</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

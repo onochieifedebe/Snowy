@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_client_script">
+    <sys_ux_client_script action="INSERT_OR_UPDATE">
+        <includes/>
+        <macroponent display_value="home">49cb9a478725e5101d4f0fe4dabb35f3</macroponent>
+        <name>Redirect to dashboard list</name>
+        <preset/>
+        <required_translations/>
+        <script><![CDATA[/**
+* @param {params} params
+* @param {api} params.api
+* @param {any} params.event
+* @param {any} params.imports
+* @param {ApiHelpers} params.helpers
+*/
+function handler({api}) {
+    api.emit('SCREEN_STATUS_CHANGED', {status: 'closed'});
+    api.emit('NAV_ITEM_SELECTED', {
+        route: 'all-dashboards',
+        title: 'All Dashboards',
+    });
+}]]></script>
+        <script_api_version>2.0.0</script_api_version>
+        <sys_class_name>sys_ux_client_script</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-17 20:41:54</sys_created_on>
+        <sys_id>15cb9e478725e5101d4f0fe4dabb35a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Redirect to dashboard list</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_ux_client_script_15cb9e478725e5101d4f0fe4dabb35a8</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-17 20:41:54</sys_updated_on>
+        <target>macroponent</target>
+        <type>default</type>
+    </sys_ux_client_script>
+</record_update>

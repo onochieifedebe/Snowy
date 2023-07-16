@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="CalEPA">81ab57951b11e91037e8fc87cc4bcb4d</application>
+        <assessment/>
+        <device_type/>
+        <filter table="x_acal_calepa_business_org_facility">u_facility_contactDYNAMIC046023d287ad25101d4f0fe4dabb35e8^EQ<item endquery="false" field="u_facility_contact" goto="false" newquery="false" operator="DYNAMIC" or="false" value="046023d287ad25101d4f0fe4dabb35e8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>My Facilities</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_acal_calepa_business_org_facility</name>
+        <order>1550</order>
+        <override_menu_roles>true</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_acal_calepa.business_lead_user,x_acal_calepa.business_submitter_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-15 17:27:40</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>bdab9f5e876d25101d4f0fe4dabb35ab</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>My Facilities</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_app_module_bdab9f5e876d25101d4f0fe4dabb35ab</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-24 20:10:36</sys_updated_on>
+        <timeline_page/>
+        <title>My Facilities</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+</record_update>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_acal_calepa_cers_nextgen" version="2" view="cers_cases">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>number</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>b97987681b716d1037e8fc87cc4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_business_org_name</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>3d7987681b716d1037e8fc87cc4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_facility_name</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>bd7987681b716d1037e8fc87cc4bcb36</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>u_business_org_contact_name</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>317987681b716d1037e8fc87cc4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>state</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>b17987681b716d1037e8fc87cc4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>submittal_type</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>357987681b716d1037e8fc87cc4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>stage</element>
+            <list_id display_value="x_acal_calepa_cers_nextgen" element="NULL" name="x_acal_calepa_cers_nextgen" parent="NULL" relationship="NULL" sys_domain="global" view="5f6947681b716d1037e8fc87cc4bcb8a">bd7987681b716d1037e8fc87cc4bcb35</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_id>b57987681b716d1037e8fc87cc4bcb37</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_acal_calepa_cers_nextgen</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-22 15:52:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd7987681b716d1037e8fc87cc4bcb35</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_cers_nextgen</sys_name>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_list_x_acal_calepa_cers_nextgen_cers_cases</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-22 15:52:26</sys_updated_on>
+            <sys_user/>
+            <view display_value="cers_cases" name="cers_cases">5f6947681b716d1037e8fc87cc4bcb8a</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

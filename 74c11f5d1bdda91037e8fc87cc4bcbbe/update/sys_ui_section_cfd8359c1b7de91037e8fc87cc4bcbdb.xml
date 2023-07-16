@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Contracts" section_id="cfd8359c1b7de91037e8fc87cc4bcbdb" sys_domain="global" table="x_acal_calepa_underground_storage_tanks_ust" version="3" view="itam_workspace">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lease_id</element>
+            <position>0</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>4fd8359c1b7de91037e8fc87cc4bcbdc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">cfd8359c1b7de91037e8fc87cc4bcbdb</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>warranty_expiration</element>
+            <position>1</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>43d8359c1b7de91037e8fc87cc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">cfd8359c1b7de91037e8fc87cc4bcbdb</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>47d8359c1b7de91037e8fc87cc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">cfd8359c1b7de91037e8fc87cc4bcbdb</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>support_group</element>
+            <position>3</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>4bd8359c1b7de91037e8fc87cc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">cfd8359c1b7de91037e8fc87cc4bcbdb</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supported_by</element>
+            <position>4</position>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_id>4fd8359c1b7de91037e8fc87cc4bcbdd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Contracts" display_value="Contracts" name="x_acal_calepa_underground_storage_tanks_ust" sys_domain="global" view="e53c64d153c230108125ddeeff7b12e3">cfd8359c1b7de91037e8fc87cc4bcbdb</sys_ui_section>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Contracts</caption>
+            <header>false</header>
+            <name>x_acal_calepa_underground_storage_tanks_ust</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>onochie.ifedebe</sys_created_by>
+            <sys_created_on>2023-03-21 15:21:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>cfd8359c1b7de91037e8fc87cc4bcbdb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_acal_calepa_underground_storage_tanks_ust</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+            <sys_update_name>sys_ui_section_cfd8359c1b7de91037e8fc87cc4bcbdb</sys_update_name>
+            <sys_updated_by>onochie.ifedebe</sys_updated_by>
+            <sys_updated_on>2023-03-21 15:21:46</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="ITAM Workspace" name="itam_workspace">e53c64d153c230108125ddeeff7b12e3</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

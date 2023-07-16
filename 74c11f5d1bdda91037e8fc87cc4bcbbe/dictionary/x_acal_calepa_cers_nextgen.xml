@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="848bdb951b11e91037e8fc87cc4bcb0f" display="true" extends="sn_customerservice_case" label="CERS NextGen Case" max_length="40" name="x_acal_calepa_cers_nextgen" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Business Facility Name" max_length="32" name="business_facility_name" read_only="true" reference="x_acal_calepa_business_org_facility" type="reference"/>
+        <element label="Facility EPA ID" max_length="150" name="cers_facility_epa_id" read_only="true" type="string"/>
+        <element label="Submittal Type" max_length="200" name="submittal_type" read_only="true" type="string"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Agent Assigned" max_length="32" name="u_agent_assigned" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Org Contact" max_length="32" name="u_business_org_contact_name" reference="x_acal_calepa_business_contacts" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false,readonly_clickthrough=true" label="Business Org Name" max_length="32" name="u_business_org_name" read_only="true" reference="x_acal_calepa_business_org" type="reference"/>
+    </element>
+</database>

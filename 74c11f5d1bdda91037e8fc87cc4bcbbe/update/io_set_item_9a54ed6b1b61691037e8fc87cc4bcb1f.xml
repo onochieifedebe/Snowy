@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="io_set_item">
+    <io_set_item action="INSERT_OR_UPDATE">
+        <order>5</order>
+        <sc_cat_item display_value="Need to add a new Facility?">b10b1a698799a9101d4f0fe4dabb3585</sc_cat_item>
+        <sys_class_name>io_set_item</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-19 05:56:43</sys_created_on>
+        <sys_id>9a54ed6b1b61691037e8fc87cc4bcb1f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Map Locator.Need to add a new Facility?</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>io_set_item_9a54ed6b1b61691037e8fc87cc4bcb1f</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-03-19 06:02:52</sys_updated_on>
+        <variable_set display_value="Map Locator">10ec2e221b74e4108872b88e034bcbc5</variable_set>
+    </io_set_item>
+</record_update>

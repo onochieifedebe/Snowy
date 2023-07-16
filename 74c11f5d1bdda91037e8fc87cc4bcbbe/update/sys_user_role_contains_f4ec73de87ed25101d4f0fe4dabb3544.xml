@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role_contains">
+    <sys_user_role_contains action="INSERT_OR_UPDATE">
+        <contains display_value="asset" name="asset">bf7dfe64c0a80169002ee4e83aa20d57</contains>
+        <role display_value="x_acal_calepa.facility_product.user" name="x_acal_calepa.facility_product.user">0063d3dd1bdda91037e8fc87cc4bcb40</role>
+        <sys_class_name>sys_user_role_contains</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-15 19:50:45</sys_created_on>
+        <sys_id>f4ec73de87ed25101d4f0fe4dabb3544</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>asset.x_acal_calepa.facility_product.user</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_user_role_contains_f4ec73de87ed25101d4f0fe4dabb3544</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-15 19:50:45</sys_updated_on>
+    </sys_user_role_contains>
+</record_update>

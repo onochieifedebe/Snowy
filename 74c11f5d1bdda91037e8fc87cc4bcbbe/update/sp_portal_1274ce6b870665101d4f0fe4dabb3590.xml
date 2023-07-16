@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_portal">
+    <sp_portal action="INSERT_OR_UPDATE">
+        <css_variables/>
+        <dark_theme/>
+        <default>false</default>
+        <enable_ais>true</enable_ais>
+        <enable_favorites>false</enable_favorites>
+        <hide_portal_name>false</hide_portal_name>
+        <homepage display_value="cers_agent_map">fec1f4a7870265101d4f0fe4dabb3544</homepage>
+        <icon>9d1041a687aa65101d4f0fe4dabb3539</icon>
+        <kb_knowledge_base/>
+        <kb_knowledge_page/>
+        <login_page display_value="calepa_login">941b6b551b51e91037e8fc87cc4bcbcf</login_page>
+        <logo/>
+        <notfound_page display_value="404">3c2c9063cb11020000f8d856634c9c1f</notfound_page>
+        <quick_start_config/>
+        <sc_catalog/>
+        <sc_catalog_page display_value="calepa_category">239962e71b1d611037e8fc87cc4bcbb8</sc_catalog_page>
+        <sc_category_page/>
+        <search_application display_value="Service Portal Default Search Application">00731b9d5b231010d9a5ce1a8581c7dd</search_application>
+        <search_results_configuration display_value="Service Portal Search">80eb579d53671010968addeeff7b1215</search_results_configuration>
+        <sp_chat_queue/>
+        <sp_rectangle_menu/>
+        <sys_class_name>sp_portal</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-04-13 04:49:40</sys_created_on>
+        <sys_id>1274ce6b870665101d4f0fe4dabb3590</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>CERS Agents Portal</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sp_portal_1274ce6b870665101d4f0fe4dabb3590</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-05-04 17:47:08</sys_updated_on>
+        <theme display_value="CalEPA Theme">d42423dd1b11e91037e8fc87cc4bcb05</theme>
+        <title>CERS Agents Portal</title>
+        <ts_index_group/>
+        <url_suffix>cers_map</url_suffix>
+    </sp_portal>
+    <sys_translated_text action="delete_multiple" query="documentkey=1274ce6b870665101d4f0fe4dabb3590"/>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#6735</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <encryption_context/>
+        <file_name>icon</file_name>
+        <hash>f5d6c3a601c3d8ba53734a00e74d3b6e5dd270049425997838a58cd54f075454</hash>
+        <image_height>16</image_height>
+        <image_width>16</image_width>
+        <size_bytes>628</size_bytes>
+        <size_compressed>651</size_compressed>
+        <state>available</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-05-04 17:47:08</sys_created_on>
+        <sys_id>9d1041a687aa65101d4f0fe4dabb3539</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-05-04 17:47:08</sys_updated_on>
+        <table_name>ZZ_YYsp_portal</table_name>
+        <table_sys_id>1274ce6b870665101d4f0fe4dabb3590</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="icon" sys_id="9d1041a687aa65101d4f0fe4dabb3539">9d1041a687aa65101d4f0fe4dabb3539</sys_attachment>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-05-04 17:47:08</sys_created_on>
+        <sys_id>dd1041a687aa65101d4f0fe4dabb3539</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AXQCi/2JUE5HDQoaCgAAAA1JSERSAAAAEAAAABAIBgAAAB/z/2EAAAABc1JHQgCuzhzpAAACLklEQVQ4T3WTT0hUURTGf+f1ZlQwDRGFqNQ2RpSoY0jQokUUQlFBCEmEmeOI4a5F0MZFraI2EtRMpQutRbuQtEVhkAuxeYZoUCjkIjP6J1NKjfPuifHNqOPo3Z57fvc73/2OsNUJ1exHrQbUlCHyF2NN4rqD9Ix/W98iWf2tB0qx/HdBzgLWhvoS6C0+FtxgeDiRrGUCWg7txXZfguQD34FyIDdbpPYRdi4CKrRWVYBdROLnFP6idgyv2OVM0oWhvaoE1+5GpDELonqJiNMrBGsbEYkgOkSC6zx0pjMud2HxOdCHcH4DZIZf0UpvhLZAMWraEbkMDBDfdpPesfnVhpbK7dj5U8DuDIgr9WseBAMdLPh7KFxuQkwrwgsWfXfoH42lHmkC+jMARkNpBT4Eh/vRgysXkrLnAg2gF4ARcmIRuqfjBGsHETmxCjHuGQ+QNNLyfSDultD7biHjlVBNHcY6jTABvEmpqEUZZplraQV7gFngKuHo7U2z1VxdTo51hGWd4dH4KG2BCpSTHqDrqM3c769AHqqNRJyBLRPaWV/A4lIxtv8ZrpvywPuJSHIYwAV9gmvdI7Y0xtP38VVfZmv24ZMmkM4VxTuj1Wu/sOKDPZFKoSdAWQT9goiLaikihan0JlBzjMj468woh+rOofoY8G05gqewg7ATzt4Fb5TjKGGEsk124BPGusKDt8/TtextTFaay3Px7zgF1mGUQoQfGDNC3p8huqf/rQf/B2zWvydEFhUNAAAAAElFTkSuQmCCLhI9HXQCAAA=</data>
+        <length>856</length>
+        <position>1</position>
+        <sys_attachment display_value="icon" sys_id="9d1041a687aa65101d4f0fe4dabb3539">9d1041a687aa65101d4f0fe4dabb3539</sys_attachment>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-05-04 17:47:08</sys_created_on>
+        <sys_id>511041a687aa65101d4f0fe4dabb353a</sys_id>
+    </sys_attachment_doc>
+</record_update>

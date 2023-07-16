@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_acal_calepa_cas_chemical_material">x_acal_calepa_cas_chemical_material</category>
+        <maximum_digits>7</maximum_digits>
+        <number>1000</number>
+        <prefix>CAS</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-07 15:39:03</sys_created_on>
+        <sys_id>7b86393f1bd5a11037e8fc87cc4bcb5b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>CAS</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_number_7b86393f1bd5a11037e8fc87cc4bcb5b</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-07 15:39:03</sys_updated_on>
+    </sys_number>
+</record_update>

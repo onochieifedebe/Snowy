@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="DELETE">
+        <macroponent_config>{
+  "table" : "task",
+  "sysId" : "e66a7e48876421101d4f0fe4dabb355c",
+  "query" : "",
+  "extraParams" : "",
+  "views" : "",
+  "selectedTabIndex" : ""
+}</macroponent_config>
+        <screen display_value="home">66995ec38725e5101d4f0fe4dabb3592</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-17 20:32:25</sys_created_on>
+        <sys_id>2e995ec38725e5101d4f0fe4dabb3594</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_2e995ec38725e5101d4f0fe4dabb3594</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-17 20:32:25</sys_updated_on>
+    </sys_uib_screen_test_values>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</application>
+        <file_path/>
+        <instance_id>afbbb8d11b532d1c168f4089bd4bcb91</instance_id>
+        <instance_name>dev176016</instance_name>
+        <name>sys_uib_screen_test_values_2e995ec38725e5101d4f0fe4dabb3594</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values"><sys_uib_screen_test_values action="INSERT_OR_UPDATE"><macroponent_config>{
+  "table" : "task",
+  "sysId" : "e66a7e48876421101d4f0fe4dabb355c",
+  "query" : "",
+  "extraParams" : "",
+  "views" : "",
+  "selectedTabIndex" : ""
+}</macroponent_config><screen display_value="home">66995ec38725e5101d4f0fe4dabb3592</screen><sys_class_name>sys_uib_screen_test_values</sys_class_name><sys_created_by>onochie.ifedebe</sys_created_by><sys_created_on>2023-03-17 20:32:25</sys_created_on><sys_id>2e995ec38725e5101d4f0fe4dabb3594</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package><sys_policy/><sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope><sys_update_name>sys_uib_screen_test_values_2e995ec38725e5101d4f0fe4dabb3594</sys_update_name><sys_updated_by>onochie.ifedebe</sys_updated_by><sys_updated_on>2023-03-17 20:32:25</sys_updated_on></sys_uib_screen_test_values></record_update>]]></payload>
+        <payload_hash>-1468445286</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d0471f0e1b1325102486edbbbc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:19:34</sys_created_on>
+        <sys_id>4ba757ce1b1325102486edbbbc4bcbdd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188a23e58800000001</sys_recorded_at>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:19:34</sys_updated_on>
+        <type>UIB Screen Test Values</type>
+        <update_guid>ea995ec3b525e51001f8c670d1785195</update_guid>
+        <update_guid_history>ea995ec3b525e51001f8c670d1785195:-1468445286</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:19:49</sys_created_on>
+        <sys_db_object display_value="" name="sys_uib_screen_test_values">sys_uib_screen_test_values</sys_db_object>
+        <sys_id>673d27412a494184b0884b4275ef5410</sys_id>
+        <sys_metadata>2e995ec38725e5101d4f0fe4dabb3594</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope_delete display_value="">3275abb307874fd8930dc17c2af7b390</sys_scope_delete>
+        <sys_update_name>sys_uib_screen_test_values_2e995ec38725e5101d4f0fe4dabb3594</sys_update_name>
+        <sys_update_version display_value="sys_uib_screen_test_values_2e995ec38725e5101d4f0fe4dabb3594">4ba757ce1b1325102486edbbbc4bcbdd</sys_update_version>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:19:49</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

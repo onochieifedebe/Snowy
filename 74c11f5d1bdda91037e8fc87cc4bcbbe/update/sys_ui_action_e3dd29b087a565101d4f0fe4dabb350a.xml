@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+    var v_cas_element = g_form.getValue('name');
+
+//     alert('v_cas_element ' + v_cas_element);
+
+    function getCas() {
+//         alert('CAS 1');
+        var ga = new GlideAjax('x_acal_calepa.CASUtilAjax');
+        ga.addParam('sysparm_name', 'verifyCas');
+        ga.addParam('cas_element', v_cas_element);
+//         alert('CAS 2');
+
+		ga.getXMLAnswer(handleResponse);
+
+//         alert('CAS 3');
+
+        function handleResponse(response) {
+            var casdtlresp = JSON.parse(response);
+            var v_status = casdtlresp.status;
+//             alert('v_status ' + v_status);
+            if (v_status == 200) {
+                g_form.addInfoMessage("CAS Registry Verified");
+            } else {
+                g_form.addInfoMessage("CAS Registry Verification failed");
+            }
+
+
+        }
+
+    }
+
+	getCas();
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>(current.status == 'pending_cas_verification')</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>true</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>true</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Verify CAS</name>
+        <onclick>getCas()</onclick>
+        <order>100</order>
+        <script><![CDATA[function getCas(){
+
+// 	alert('CAS 1');
+    var ga = new GlideAjax('CASUtilAjax');
+    ga.addParam('sysparm_name', 'verifyCas');
+
+    var v_cas_element = g_form.getValue('name');
+
+//     alert('v_cas_element ' + v_cas_element);
+
+    ga.addParam('cas_element', v_cas_element);
+    ga.getXML(callBackFunction);
+
+
+    function callBackFunction(response) {
+        var answer = response.responseXML.documentElement.getAttribute("answer");
+
+// 		alert(answer);
+		
+        if (answer) {
+            var casdtlresp = JSON.parse(response);
+            var v_status = casdtlresp.status;
+            if (v_status == 200) {
+                g_form.addInfoMessage("CAS Registry Verified");
+            } else {
+                g_form.addInfoMessage("CAS Registry Verification failed");
+            }
+
+		}
+    }
+
+}]]></script>
+        <show_insert>true</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-10 17:37:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>e3dd29b087a565101d4f0fe4dabb350a</sys_id>
+        <sys_mod_count>47</sys_mod_count>
+        <sys_name>Verify CAS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_ui_action_e3dd29b087a565101d4f0fe4dabb350a</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-13 17:50:50</sys_updated_on>
+        <table>x_acal_calepa_chemical_library</table>
+        <ui11_compatible>false</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

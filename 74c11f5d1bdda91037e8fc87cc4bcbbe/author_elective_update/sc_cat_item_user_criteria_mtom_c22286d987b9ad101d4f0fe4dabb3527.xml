@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Underground Storage Tanks">c43b3d101bbde91037e8fc87cc4bcb44</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-24 18:36:19</sys_created_on>
+        <sys_id>c22286d987b9ad101d4f0fe4dabb3527</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Underground Storage Tanks.CERS Facility Creation</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c22286d987b9ad101d4f0fe4dabb3527</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-24 18:36:19</sys_updated_on>
+        <user_criteria display_value="CERS Facility Creation">b3f8c1c81b3da91037e8fc87cc4bcb3a</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</application>
+        <file_path/>
+        <instance_id>afbbb8d11b532d1c168f4089bd4bcb91</instance_id>
+        <instance_name>dev176016</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_c22286d987b9ad101d4f0fe4dabb3527</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="Underground Storage Tanks">c43b3d101bbde91037e8fc87cc4bcb44</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>onochie.ifedebe</sys_created_by><sys_created_on>2023-03-24 18:36:19</sys_created_on><sys_id>c22286d987b9ad101d4f0fe4dabb3527</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Underground Storage Tanks.CERS Facility Creation</sys_name><sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package><sys_policy/><sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_c22286d987b9ad101d4f0fe4dabb3527</sys_update_name><sys_updated_by>onochie.ifedebe</sys_updated_by><sys_updated_on>2023-03-24 18:36:19</sys_updated_on><user_criteria display_value="CERS Facility Creation">b3f8c1c81b3da91037e8fc87cc4bcb3a</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>-602389518</payload_hash>
+        <record_name>Underground Storage Tanks.CERS Facility Creation</record_name>
+        <reverted_from/>
+        <source>d0471f0e1b1325102486edbbbc4bcbef</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:18:44</sys_created_on>
+        <sys_id>be77138e1b1325102486edbbbc4bcbfe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>188a23d93a60000001</sys_recorded_at>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:18:44</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>8e2286d984b9ad1094fa80c1db829429</update_guid>
+        <update_guid_history>8e2286d984b9ad1094fa80c1db829429:-602389518</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-06-09 22:23:25</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>0032f4c288154dd6827a6852714bdec4</sys_id>
+        <sys_metadata>c22286d987b9ad101d4f0fe4dabb3527</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Underground Storage Tanks.CERS Facility Creation</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_scope_delete display_value="">3275abb307874fd8930dc17c2af7b390</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_c22286d987b9ad101d4f0fe4dabb3527</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_c22286d987b9ad101d4f0fe4dabb3527">be77138e1b1325102486edbbbc4bcbfe</sys_update_version>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-06-09 22:23:25</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

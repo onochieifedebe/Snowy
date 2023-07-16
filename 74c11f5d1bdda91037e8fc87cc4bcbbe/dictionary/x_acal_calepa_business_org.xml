@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="3e54d3111b11e91037e8fc87cc4bcb06" extends="customer_account" label="Business Org" max_length="40" name="x_acal_calepa_business_org" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" dynamic_ref_qual="e75373541b752d1037e8fc87cc4bcb83" label="Primary Business Contact" max_length="32" name="u_business_contact" reference="x_acal_calepa_business_contacts" reference_qual="javascript:new showcontactsforbusorg().myOrgContacts()" type="reference" use_reference_qualifier="dynamic"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Parent Organization" max_length="32" name="u_parent_org" reference="x_acal_calepa_business_org" type="reference"/>
+        <index name="index">
+            <element name="u_business_contact"/>
+        </index>
+        <index name="index2">
+            <element name="u_parent_org"/>
+        </index>
+    </element>
+</database>

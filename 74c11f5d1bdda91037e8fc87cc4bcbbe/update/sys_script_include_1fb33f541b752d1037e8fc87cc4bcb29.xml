@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>false</active>
+        <api_name>x_acal_calepa.showcontactsforbusorg</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>showcontactsforbusorg</name>
+        <script><![CDATA[var showcontactsforbusorg = Class.create();
+showcontactsforbusorg.prototype = {
+    initialize: function() {
+    },
+	
+	myOrgContacts: function(){
+		var gr = new GlideRecord('x_acal_calepa_business_contacts');
+		gr.addQuery('sys_id', gs.getUserID());
+		gr.query();
+		if(gr.next()){
+			return "business_org"+"="+gr.business_org.toString();
+		}
+	},
+	
+    type: 'showcontactsforbusorg'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>onochie.ifedebe</sys_created_by>
+        <sys_created_on>2023-03-22 00:26:32</sys_created_on>
+        <sys_id>1fb33f541b752d1037e8fc87cc4bcb29</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>showcontactsforbusorg</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_script_include_1fb33f541b752d1037e8fc87cc4bcb29</sys_update_name>
+        <sys_updated_by>onochie.ifedebe</sys_updated_by>
+        <sys_updated_on>2023-03-24 19:27:13</sys_updated_on>
+    </sys_script_include>
+</record_update>

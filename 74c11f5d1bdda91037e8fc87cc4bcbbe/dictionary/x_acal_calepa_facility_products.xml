@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="a6389bd11b11e91037e8fc87cc4bcb94" extends="alm_asset" label="Facility Inventory" max_length="40" name="x_acal_calepa_facility_products" type="collection">
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Business Facility" max_length="32" name="business_facility" reference="x_acal_calepa_business_org_facility" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,encode_utf8=false" label="Chemical Library" max_length="32" name="chemical_library" reference="x_acal_calepa_chemical_library" type="reference"/>
+        <element attributes="edge_encryption_enabled=true,no_sort=true,slushbucket_ref_no_expand=true" label="List of Chemicals on Site" max_length="4000" name="list_of_chemicals_on_site" type="glide_list"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="business_facility"/>
+        </index>
+        <index name="index2">
+            <element name="chemical_library"/>
+        </index>
+    </element>
+</database>

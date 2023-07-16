@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="CERS ALL Cases">e9b7b5b887a565101d4f0fe4dabb3576</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>debesish.banerjee</sys_created_by>
+        <sys_created_on>2023-03-10 18:18:01</sys_created_on>
+        <sys_id>61b7b5b887a565101d4f0fe4dabb3577</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>e9b7b5b887a565101d4f0fe4dabb3576</sys_name>
+        <sys_package display_value="CalEPA" source="x_acal_calepa">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="CalEPA">74c11f5d1bdda91037e8fc87cc4bcbbe</sys_scope>
+        <sys_update_name>sys_report_users_groups_61b7b5b887a565101d4f0fe4dabb3577</sys_update_name>
+        <sys_updated_by>debesish.banerjee</sys_updated_by>
+        <sys_updated_on>2023-03-10 18:18:01</sys_updated_on>
+        <user_id display_value="">74281c231bbca51037e8fc87cc4bcbe1</user_id>
+    </sys_report_users_groups>
+</record_update>
